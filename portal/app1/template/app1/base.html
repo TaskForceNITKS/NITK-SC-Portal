@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+      <ul>
+        <li><a href="{% url 'home' %}">home</a></li>
+        <li><a href="{% url 'forms' %}">forms</a></li>
+        <li><a href="{% url 'announcements' %}">announcements</a></li>
+        <li><a href="{% url 'council' %}">council</a></li>
+        <li><a href="{% url 'documents' %}">documents</a></li>
+        <li><a href="{% url 'meeting' %}">meetings</a></li>
+        <li><a href="{% url 'grievances' %}">grievances</a></li>
+        <li><a href="{% url 'club' %}">clubs</a></li>
+        <li><a href="{% url 'contact' %}">contact</a></li>
+
+
+      </ul>
+    
+    {% block content %}
+{% endblock %}
+
+  </body>
+</html>
