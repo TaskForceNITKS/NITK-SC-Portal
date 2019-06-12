@@ -14,6 +14,6 @@ urlpatterns=[
        path('grievances/',views.grievances,name='grievances'),
        path('clubs-and-calendar/',views.club,name='club'),
        path('documents/',views.documents,name='documents'),
-       
+
 
 ]
