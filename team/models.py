@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+#Each member of the student council is stored as a model. The data is loaded from the members.json file using a data migration(team/migrations/0002_auto_20190617_1307.py) when we run manage.py migrate.
+
 class Member(models.Model):
 
     YEAR_IN_COLLEGE_CHOICES = [
@@ -13,6 +15,9 @@ class Member(models.Model):
     (6, 'PhD'),
     (None , 'Not Applicable'),
     ]
+    
+#The groups should be entered as either 'core','engineer','incident','cr-1','cr-2','cr-3','cr-4','cr-pg','cr-phd','phd-pg-advisory','acadamic-advisory','student-activites-advisory''sports-advisory','alumni-advisory','hostel-advisory','club-con','sports-cap','hostel-rep','alumni-coordinator'
+#It is essential the group is entered correctly as it decides where the member is placed on the html page
 
 
     name = models.CharField(max_length=120, default="Quisquam Consectetur")

@@ -28,7 +28,7 @@
             </div>
             <div class="col m2 s12">
                 <ul class="section table-of-contents">
-                    <li><a href="#main_council">Main Council</a></li>
+                    <li><a href="#main_council">Core Council, Incident and Engineer Councils</a></li>
                     <li><a href="#cr">Class Representatives</a></li>
                     <li><a href="#adv">Advisories</a></li>
                     <li><a href="#exec">Executive Council</a></li>
@@ -69,6 +69,12 @@
 <div class="container">
     <h4 class="light header" id="cr">Class Representatives</h3>
         <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="PhD - Class Representatives" member_list=cr_phd only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Post Graduate - Class Representatives" member_list=cr_pg only %}
+            </li>            
             <li>
                 {% include "team/group.html" with group_title="Fourth Year - Class Representatives" member_list=cr4 only %}
             </li>
@@ -119,7 +125,7 @@
     <h4 class="light header" id="exec">Executive Council</h3>
         <ul class="collapsible">
             <li>
-                {% include "team/group.html" with group_title="Club Converner" member_list=club_con only %}
+                {% include "team/group.html" with group_title="Club Converners" member_list=club_con only %}
             </li>
             <li>
                 {% include "team/group.html" with group_title="Hostel Representatives" member_list=hostel_rep only %}
