@@ -1,0 +1,1757 @@
+[
+    {
+        "model": "team.member",
+        "pk": 1,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Dean Student Welfare",
+            "group": "core",
+            "email": "",
+            "year": null,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 2,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Student Council President",
+            "group": "core",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 3,
+        "fields": {
+            "name": "Quisquam Consecteturium",
+            "post": "Vice President",
+            "group": "core",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 4,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "General Secretary SC",
+            "group": "core",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 5,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Joint Secretary SC",
+            "group": "core",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 6,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Public Relations Coordinator",
+            "group": "core",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 7,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Engineer Convenor",
+            "group": "engineer",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 8,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Engineer Secretary",
+            "group": "engineer",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 9,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Engineer Joint Secretary",
+            "group": "engineer",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 10,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Incident Convenor",
+            "group": "incident",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 11,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Incident Secretary",
+            "group": "incident",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 12,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Incident Joint Secretary",
+            "group": "incident",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 13,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD Advisor",
+            "group": "phd-pg-advisory",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 14,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PG Advisor (Boys)",
+            "group": "phd-pg-advisory",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 15,
+        "fields": {
+            "name": "Quisquam Consecteturium",
+            "post": "PG Advisor (Girls)",
+            "group": "phd-pg-advisory",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 16,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Academic Advisor",
+            "group": "acadamic-advisory",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 17,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Academic Secretary",
+            "group": "acadamic-advisory",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 18,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Academic Joint Secretary",
+            "group": "acadamic-advisory",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 19,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Student Activities Advisor",
+            "group": "student-activites-advisory",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 20,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Student Activities Secretary",
+            "group": "student-activites-advisory",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 21,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Student Activities Joint Secretary",
+            "group": "student-activites-advisory",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 22,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Alumni Advisor",
+            "group": "alumni-advisory",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 23,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Alumni Secretary",
+            "group": "alumni-advisory",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 24,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Alumni Joint Secretary",
+            "group": "alumni-advisory",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 25,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Sports Advisor",
+            "group": "sports-advisory",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 26,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Sports Secretary",
+            "group": "sports-advisory",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 27,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Sports Joint Secretary",
+            "group": "sports-advisory",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 28,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CH Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 29,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MT Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 30,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MN Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 31,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 32,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 33,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 34,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 35,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 36,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 37,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 38,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 39,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 41,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 41,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME1 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 42,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME2 Second Year CR",
+            "group": "cr-2",
+            "email": "",
+            "year": 2,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 43,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CH Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 44,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MT Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 45,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MN Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 46,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 47,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 48,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 49,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 50,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 51,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 52,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 53,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 54,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 55,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 56,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME1 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 57,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME2 Third Year CR",
+            "group": "cr-3",
+            "email": "",
+            "year": 3,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 58,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CH Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 59,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MT Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 60,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MN Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 61,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 62,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CO2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 63,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 64,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "CV2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 65,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 66,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EC2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 67,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 68,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "EE2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 69,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 70,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "IT2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 71,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME1 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 72,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "ME2 Fourth Year CR",
+            "group": "cr-4",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 73,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR 1",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 74,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR2",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 75,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR3",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 76,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR4",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 77,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR5",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 78,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR6",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 79,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR7",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 80,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR8",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 81,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR9",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 82,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR10",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 83,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR11",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 84,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR12",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 85,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR13",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 86,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "PhD CR14",
+            "group": "cr-phd",
+            "email": "",
+            "year": 6,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 88,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 1",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 89,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 2",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 90,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 3",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 91,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 4",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 92,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 5",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 93,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 6",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 94,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 7",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 95,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 8",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 96,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 9",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 97,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Tech CR 10",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 98,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Sc CR 1",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 99,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "M.Sc CR 2",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 100,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MBA CR 1",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 101,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "MCA CR 1",
+            "group": "cr-pg",
+            "email": "",
+            "year": 5,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 102,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Club Convener",
+            "group": "club-con",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 103,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Alumi Cordinator",
+            "group": "alumni-coordinator",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 104,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Hostel Representative",
+            "group": "hostel-rep",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 105,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Sports Captain 1",
+            "group": "sports-cap",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 106,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "Hostels Advisory Member",
+            "group": "hostel-advisory",
+            "email": "",
+            "year": 4,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 107,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S1 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 108,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S2 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 109,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S3 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 110,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S4 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 111,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S5 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 112,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S6 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 113,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S7 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 114,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S8 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 115,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S9 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 116,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S10 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 117,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S11 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    },
+    {
+        "model": "team.member",
+        "pk": 118,
+        "fields": {
+            "name": "Quisquam Consectetur",
+            "post": "First Year S12 CR",
+            "group": "cr-1",
+            "email": "",
+            "year": 1,
+            "image": "https://via.placeholder.com/150",
+            "linkedin": "#",
+            "facebook": "#",
+            "phone": ""
+        }
+    }
+]
