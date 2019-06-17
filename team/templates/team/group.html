@@ -1,13 +1,14 @@
 <div class="row collapsible-header">
     {{group_title}}
 </div>
-<div class="collapsible-body">
-    <div class="row ">
+<div class="collapsible-body row">
+
         {% for obj in member_list %}
-        <div class="col s12 m3 center " style="margin-bottom: 20px;">
-            <img src="https://via.placeholder.com/150" class="circle  responsive-img hide-on-small-only">
-            <p class="promo-caption center">{{obj.post}}</p>
-            <p class="light center">
+        <div class=" center col s12 m3 ob">
+
+            <img src="https://via.placeholder.com/150" class="circle responsive-img hide-on-small-only">
+            <p class="promo-caption">{{obj.post}}</p>
+            <p class="light">
                 {{obj.name}}
             </p>
             <a href={{obj.facebook}}>
@@ -23,6 +24,6 @@
                 </span>
             </a>
         </div>
+
         {% endfor %}
-    </div>
 </div>

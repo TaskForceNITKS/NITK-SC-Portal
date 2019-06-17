@@ -1,25 +1,22 @@
 {% extends 'mainapp/base.html' %}
-{% block content %}
+{% block extra_css %}
+<style>
+p {
+    margin: 0
+}
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<style type="text/css">
-    .boxhidden {
-        display: none;
-    }
-
-    p {
-        margin: 0
-    }
-
-    a {
-        color: inherit;
-    }
+a {
+    color: inherit;
+}
+.ob{
+    max-height: 215px;
+    margin-bottom: 20px;
+    margin-top: 30px
+}
 </style>
-
-
-
-
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+{% block content %}
 <div class="container">
     <div class="nav-wrapper">
         <div class="row">
@@ -65,7 +62,7 @@
 
 
 
-<div class="divider" ></div>
+<div class="divider"></div>
 <div class="container">
     <h4 class="light header" id="cr">Class Representatives</h3>
         <ul class="collapsible">
@@ -74,7 +71,7 @@
             </li>
             <li>
                 {% include "team/group.html" with group_title="Post Graduate - Class Representatives" member_list=cr_pg only %}
-            </li>            
+            </li>
             <li>
                 {% include "team/group.html" with group_title="Fourth Year - Class Representatives" member_list=cr4 only %}
             </li>
@@ -93,7 +90,7 @@
         </ul>
 </div>
 
-<div class="divider" ></div>
+<div class="divider"></div>
 <div class="container">
     <h4 class="light header" id="adv">Advisories</h3>
         <ul class="collapsible">
@@ -120,7 +117,7 @@
         </ul>
 </div>
 
-<div class="divider" ></div>
+<div class="divider"></div>
 <div class="container">
     <h4 class="light header" id="exec">Executive Council</h3>
         <ul class="collapsible">
