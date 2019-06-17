@@ -1,0 +1,28 @@
+<div class="row collapsible-header">
+    {{group_title}}
+</div>
+<div class="collapsible-body">
+    <div class="row ">
+        {% for obj in member_list %}
+        <div class="col s12 m3 center " style="margin-bottom: 20px;">
+            <img src="https://via.placeholder.com/150" class="circle  responsive-img hide-on-small-only">
+            <p class="promo-caption center">{{obj.post}}</p>
+            <p class="light center">
+                {{obj.name}}
+            </p>
+            <a href={{obj.facebook}}>
+                <span class="fa-stack fa">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+            <a href={{obj.linkedin}}>
+                <span class="fa-stack fa">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

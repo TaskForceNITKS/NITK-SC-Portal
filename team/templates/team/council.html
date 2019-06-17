@@ -1,0 +1,158 @@
+{% extends 'mainapp/base.html' %}
+{% block content %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+    .boxhidden {
+        display: none;
+    }
+
+    p {
+        margin: 0
+    }
+
+    a {
+        color: inherit;
+    }
+</style>
+
+
+
+
+
+<div class="container">
+    <div class="nav-wrapper">
+        <div class="row">
+            <div class="col s12 m10">
+                <h1 class="header">Know Your Council</h1>
+            </div>
+            <div class="col m2 s12">
+                <ul class="section table-of-contents">
+                    <li><a href="#main_council">Core Council, Incident and Engineer Councils</a></li>
+                    <li><a href="#cr">Class Representatives</a></li>
+                    <li><a href="#adv">Advisories</a></li>
+                    <li><a href="#exec">Executive Council</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="divider"></div>
+
+<div class="container">
+    <h4 class="light header" id="main_council">Student Council </h3>
+        <ul class="collapsible">
+
+
+            <li>
+                {% include "team/group.html" with group_title="Core Student Council" member_list=core only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="Incident Council" member_list=inci only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="Engineer Council" member_list=engi only %}
+            </li>
+
+        </ul>
+</div>
+
+
+
+
+<div class="divider" ></div>
+<div class="container">
+    <h4 class="light header" id="cr">Class Representatives</h3>
+        <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="PhD - Class Representatives" member_list=cr_phd only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Post Graduate - Class Representatives" member_list=cr_pg only %}
+            </li>            
+            <li>
+                {% include "team/group.html" with group_title="Fourth Year - Class Representatives" member_list=cr4 only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Third Year - Class Representatives" member_list=cr3 only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="Second Year - Class Representatives" member_list=cr2 only %}
+            </li>
+            {% comment %}
+            <li>
+                {% include "team/group.html" with group_title="First Year - Class Representatives" member_list=cr1 only %}
+            </li>
+            {% endcomment %}
+        </ul>
+</div>
+
+<div class="divider" ></div>
+<div class="container">
+    <h4 class="light header" id="adv">Advisories</h3>
+        <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="Student Activities Adivisory" member_list=stud_act_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Academic Advisory" member_list=acad_adv only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="PG and PhD Advisory" member_list=phd_pg_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Sports Advisory" member_list=sports_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Alumni Advisory" member_list=alumni_adv only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="Hostel Advisory" member_list=hostel_adv only %}
+            </li>
+        </ul>
+</div>
+
+<div class="divider" ></div>
+<div class="container">
+    <h4 class="light header" id="exec">Executive Council</h3>
+        <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="Club Converners" member_list=club_con only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Hostel Representatives" member_list=hostel_rep only %}
+            </li>
+
+            <li>
+                {% include "team/group.html" with group_title="Sports Captains" member_list=sports_cap only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Alumni Coordinators" member_list=alumni_coord only %}
+            </li>
+        </ul>
+</div>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+
+        $('.collapsible').collapsible();
+
+    });
+</script>
+
+
+
+
+{% endblock %}

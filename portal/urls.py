@@ -19,5 +19,6 @@ from mainapp import views
 
 urlpatterns = [
     path('',include('mainapp.urls')),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
+    path('know-your-council/', include('team.urls'))
 ]
