@@ -7,13 +7,13 @@ from . import views
 urlpatterns=[
        path('',views.home,name='home'),
        path('forms/',views.forms,name='forms'),
-       path('announcements/',views.announcements,name='announcements'),
+       path('announcements/',views.AnnouncementsListView.as_view(),name='announcement_list'),
        #path('know-your-council/',views.council,name='council'),
        path('contact-info/',views.contact,name='contact'),
        path('townhall-and-sc-meetings/',views.meeting,name='meeting'),
        path('grievances/',views.grievances,name='grievances'),
        path('clubs-and-calendar/',views.club,name='club'),
-       path('documents/',views.documents,name='documents'),
+       path('documents/',views.DocumentsListView.as_view(),name='documents'),
 
 
 ]
