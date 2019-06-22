@@ -92,21 +92,10 @@ DATABASES ={
         'default': {
         'ENGINE': 'djongo',
         'NAME': env_var('NAME'),
-        'HOST':env_var('HOST'),
-        'USER':env_var('USERNAME'),
-        'PASSWORD':env_var('PASSWORD'),
-        'SECRET_KEY': env_var('SECRET_KEY'),
-
-
-
-
-
+        'HOST': env_var('HOST'),
+        'USER': env_var('MONGOUSERNAME'),
+        'PASSWORD': env_var('PASSWORD'),
     }
-
-
-
-
-
 }
 #print (os.getenv('HOST'))
 
