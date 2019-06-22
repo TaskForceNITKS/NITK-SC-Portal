@@ -1,46 +1,28 @@
-{% comment %}
-If u are adding more information about each memeber delete/adjust the ob css class
-If the webpage layout gets messed up delete the ob CSS class. 
-I have just added it to control the layout so that the different cells dont overlap on tablet size displays. 
-{% endcomment%}
-
-
 <div class="row collapsible-header">
     {{group_title}}
 </div>
-<div class="collapsible-body row">
-
-    {% for obj in member_list %}
-    <div class=" center col s12 m3 ob">
-
-        <img src="https://via.placeholder.com/150" class="circle responsive-img hide-on-small-only">
-        <p class="promo-caption">{{obj.post}}</p>
-        <p class="light">
-            {{obj.name}}
-        </p>
-        <a href="{{obj.facebook}}">
-            <span class="fa-stack fa">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
-        <a href="{{obj.linkedin}}">
-            <span class="fa-stack fa">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
-        <p>
-            <a class="envelope social" href="mailto:{{obj.email}} target=" _blank">
-                <i class="fa fa-envelope"></i>
-                {{obj.email}}
+<div class="collapsible-body">
+    <div class="row ">
+        {% for obj in member_list %}
+        <div class="col s12 m3 center " style="margin-bottom: 20px;">
+            <img src="https://via.placeholder.com/150" class="circle  responsive-img hide-on-small-only">
+            <p class="promo-caption center">{{obj.post}}</p>
+            <p class="light center">
+                {{obj.name}}
+            </p>
+            <a href={{obj.facebook}}>
+                <span class="fa-stack fa">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
             </a>
-        </p>
-        <p>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            {{obj.phone}}
-        </p>
+            <a href={{obj.linkedin}}>
+                <span class="fa-stack fa">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+        {% endfor %}
     </div>
-
-    {% endfor %}
 </div>

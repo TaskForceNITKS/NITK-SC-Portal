@@ -1,6 +1,12 @@
 {% extends 'mainapp/base.html' %}
-{% block extra_css %}
-<style>
+{% block content %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+    .boxhidden {
+        display: none;
+    }
+
     p {
         margin: 0
     }
@@ -8,28 +14,12 @@
     a {
         color: inherit;
     }
-
-    .ob {
-        max-height: 250px;
-        margin-bottom: 20px;
-        margin-top: 30px
-    }
-
-    .mobile-fab-tip {
-        position: fixed;
-        right: 85px;
-        padding: 0px 0.5rem;
-        text-align: right;
-        background-color: #323232;
-        border-radius: 2px;
-        color: #FFF;
-        width: auto;
-    }
 </style>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-{% endblock %}
-{% block content %}
+
+
+
+
 <div class="container">
     <div class="nav-wrapper">
         <div class="row">
@@ -75,7 +65,7 @@
 
 
 
-<div class="divider"></div>
+<div class="divider" ></div>
 <div class="container">
     <h4 class="light header" id="cr">Class Representatives</h3>
         <ul class="collapsible">
@@ -84,7 +74,7 @@
             </li>
             <li>
                 {% include "team/group.html" with group_title="Post Graduate - Class Representatives" member_list=cr_pg only %}
-            </li>
+            </li>            
             <li>
                 {% include "team/group.html" with group_title="Fourth Year - Class Representatives" member_list=cr4 only %}
             </li>
@@ -103,7 +93,7 @@
         </ul>
 </div>
 
-<div class="divider"></div>
+<div class="divider" ></div>
 <div class="container">
     <h4 class="light header" id="adv">Advisories</h3>
         <ul class="collapsible">
@@ -130,7 +120,7 @@
         </ul>
 </div>
 
-<div class="divider"></div>
+<div class="divider" ></div>
 <div class="container">
     <h4 class="light header" id="exec">Executive Council</h3>
         <ul class="collapsible">
@@ -150,35 +140,8 @@
         </ul>
 </div>
 
-{% comment %}
-https://github.com/Dogfalo/materialize/issues/963
-philipraets comment
-{% endcomment %}
-<div id="main-btn" class="fixed-action-btn click-to-toggle" style="bottom:24px; right:24px;">
-    <a class="btn-floating btn-large red"><i class="large material-icons">menu</i></a>
-    <ul>
-        <li>
-            <a href="#main_council" class="btn-floating teal"><i class="material-icons">chevron_left</i></a>
-            <a href="#main_council" class="btn-floating mobile-fab-tip">Main Councils</a>
-            <!--tooltip-->
-        </li>
-        <li>
-            <a href="#cr" class="btn-floating amber lighten-1"><i class="material-icons">chevron_left</i></a>
-            <a href="#cr" class="btn-floating mobile-fab-tip">Class Representatives</a>
-            <!--tooltip-->
-        </li>
-        <li>
-            <a href="#adv" class="btn-floating blue"><i class="material-icons">chevron_left</i></a>
-            <a href="#adv" class="btn-floating mobile-fab-tip ">Advisories</a>
-            <!--tooltip-->
-        </li>
-        <li>
-            <a href="#exec" class="btn-floating orange accent-4 "><i class="material-icons">chevron_left</i></a>
-            <a href="#exec" class="btn-floating mobile-fab-tip ">Executive Council</a>
-            <!--tooltip-->
-        </li>
-    </ul>
-</div>
+
+
 
 
 <script>
@@ -187,19 +150,9 @@ philipraets comment
         $('.collapsible').collapsible();
 
     });
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.fixed-action-btn');
-        var instances = M.FloatingActionButton.init(elems, {
-            direction: 'top',
-            hoverEnabled: false
-        });
-    });
-
-    $(document).ready(function () {
-        $('.tooltipped').tooltip();
-    });
 </script>
+
+
 
 
 {% endblock %}
