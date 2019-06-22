@@ -5,9 +5,8 @@ from django.db import migrations
 from django.core import serializers
 import json
 
-print(os.getcwd())
 def add_data(apps, schema_editor):
-    with open('team/members.json') as data:
+    with open('team/members_list/members.json') as data:
         for deserialized_object in serializers.deserialize("json", data):
             deserialized_object.save()
 
