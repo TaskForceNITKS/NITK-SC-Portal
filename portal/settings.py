@@ -97,7 +97,7 @@ DATABASES ={
         'PASSWORD': env_var('PASSWORD'),
     }
 }
-print (os.getenv('USER'))
+#print (os.getenv('HOST'))
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
