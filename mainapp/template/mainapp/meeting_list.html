@@ -1,0 +1,22 @@
+{% extends 'mainapp/base.html' %}
+{% block content %}
+
+<h1>Meetings page</h1>
+<div class="row">
+{% for a in meeting_list %}
+
+	
+    <div class="col s12">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">
+          {{ a.time_of_meeting }}</span>
+          <h5>Agenda : </h5>
+          <p>{{ a.Agenda }} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        </div>
+      </div>
+    </div>
+
+	{% endfor %}
+</div>
+{% endblock %}
