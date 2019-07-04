@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView
-from .models import Announcement,Documents
+from .models import Announcement,Documents,Meeting
 # Create your views here.
 
 def home(request):
@@ -30,12 +30,15 @@ def grievances(request):
 def council(request):
     return render(request,'mainapp/council.html')
 
-def meeting(request):
-    return render(request,'mainapp/meeting.html')
-
 
 class AnnouncementsListView(ListView):
     model = Announcement
 
     def get_queryset(self):
         return Announcement.objects.all()
+
+
+class MeetingListView(ListView):
+    model=Meeting
+    def get_queryset(self):
+        return Meeting.objects.all()
