@@ -1,0 +1,93 @@
+nav {
+	background-color: transparent;
+	box-shadow: none;
+	transition: background-color 0.35s, box-shadow 0.35s;
+}
+
+nav * {
+	color: black !important;
+}
+
+#dropdown1 {
+	width: initial !important;
+}
+
+.navbar-fixed {
+	position: absolute;
+}
+
+.carousel-slider {
+	border-radius: 10px;
+}
+
+.complete-page {
+	height: 100vh;
+}
+
+.full-page {
+	height: 95vh;
+	margin-bottom: 5vh;
+}
+
+.hold-back {
+	background-image: url(https://fifthncrac2018.nitk.ac.in/wp-content/uploads/2017/10/5.jpg);
+}
+
+.portal-heading {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 4rem;
+}
+
+.portal-subheading {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 2rem;
+}
+
+.emblem {
+	height: 300px !important;
+}
+
+.middle-content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.council-msg {
+	border: 1px solid #b0bec5;
+	border-radius: 10px;
+	padding-top: 10px !important;
+}
+
+.full-page > .row, .full-page > .row > div {
+	height: 100%;
+}
+
+.italics {
+	font-style: italic;
+}
+
+#nav-mobile > li {
+	background-color: white;
+	border-radius: 20px;
+	margin-right: 5px;
+}
+
+.second-section {
+	margin-top: 5vh;
+}
+
+.btn {
+	background-color: #212121;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #212121;
+}
+

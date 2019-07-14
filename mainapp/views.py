@@ -1,12 +1,10 @@
 from django.shortcuts import render
 from django.views.generic import ListView
 from .models import Announcement,Documents,Meeting
-# Create your views here.
+
 
 def home(request):
     return render(request,'mainapp/home.html')
-
-
 
 def club(request):
     return render(request,'mainapp/club.html')

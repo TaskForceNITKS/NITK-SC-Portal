@@ -1,8 +1,130 @@
 {% extends 'mainapp/base.html' %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+{% endblock %}
+{% block header %}
+<div class="navbar-fixed">
+	<nav class="nav-extended">
+		<div class="nav-wrapper container">
+			{% block header_left %}
+			{% endblock %}
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="{% url 'contact' %}">Contact</a></li>
+
+			</ul>
+		</div>
+	</nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+	<li><a href="{% url 'home' %}">Home</a></li>
+	<li><a href="{% url 'forms' %}">Forms</a></li>
+	<li><a href="{% url 'announcement_list' %}">Announcements</a></li>
+	<li><a href="{% url 'team:council' %}">Council</a></li>
+	<li><a href="{% url 'documents_list' %}">Documents</a></li>
+	<li><a href="{% url 'meeting_list' %}">Meetings</a></li>
+	<li><a href="{% url 'grievances' %}">Grievances</a></li>
+	<li><a href="{% url 'club' %}">Clubs</a></li>
+	<li><a href="{% url 'contact' %}">Contact</a></li>
+</ul>
+
+<ul id="dropdown1" class="dropdown-content">
+	<li><a href="{% url 'forms' %}">forms</a></li>
+	<li><a href="{% url 'announcement_list' %}">announcements</a></li>
+	<li><a href="{% url 'team:council' %}">council</a></li>
+	<li><a href="{% url 'documents_list' %}">documents</a></li>
+	<li><a href="{% url 'meeting_list' %}">meetings</a></li>
+	<li><a href="{% url 'grievances' %}">grievances</a></li>
+	<li><a href="{% url 'club' %}">clubs</a></li>
+</ul>
+{% endblock %}
 {% block content %}
 
-<h1>home page</h1>
+<div class="complete-page hold-back">
+	<div class="container full-page">
+		<div class="row center flex">
+			<div class="col s4 middle-content"><img class="responsive-img emblem" src="{% static 'images/emblem.png' %}"></div>
+			<div class="col s8 middle-content">
+				<p><span class="portal-heading">Students' Council Portal</span><br/><span class="portal-subheading light">National Institute of Technology Karnataka, Surathkal</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row second-section">
+	<div class="col s1"></div>
+	<div class="col s4 center council-msg">
+		<img src="https://via.placeholder.com/250" class="responsive-img circle" />
+		<h4 class="light">Message from the Council</h4>
+		<p class="left-align italics">&quot;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in quam diam. Nulla sed viverra neque, at lobortis sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&nbsp;&quot;</p>
+	</div>
+	<div class="col s1"></div>
+	<div class="col s5">
+		<div class="carousel carousel-slider center">
+			<div class="carousel-item red white-text" href="#one!">
+				<h2>First Panel</h2>
+				<p class="white-text">This is your first panel</p>
+			</div>
+			<div class="carousel-item amber white-text" href="#two!">
+				<h2>Second Panel</h2>
+				<p class="white-text">This is your second panel</p>
+			</div>
+			<div class="carousel-item green white-text" href="#three!">
+				<h2>Third Panel</h2>
+				<p class="white-text">This is your third panel</p>
+			</div>
+			<div class="carousel-item blue white-text" href="#four!">
+				<h2>Fourth Panel</h2>
+				<p class="white-text">This is your fourth panel</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col s1"></div>
+	<div class="col s4">
+		<h3>Latest Announcements</h3>
+		<ul>
+		{% for a in announcement_list %}
+			<li>{{a.text_string}}  {{a.time_of_announcement}}</li>
+		{% endfor %}
+		</ul>
+		<a class="waves-effect waves-light btn right" href="{% url 'announcement_list' %}"><i class="material-icons left">open_in_new</i>More Announcements</a>
+	</div>
+	<div class="col s1"></div>
+	<div class="col s5">
+		<h3>Upcoming Townhall Meets</h3>
+		<ul>
+		{% for a in meeting_list %}
+			<li>{{ a.time_of_meeting }} {{ a.Agenda }} </li>
+		{% endfor %}
+		</ul>
+		<a class="waves-effect waves-light btn right" href="{% url 'meeting_list' %}"><i class="material-icons left">open_in_new</i>View all</a>
+	</div>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+{% endblock %}
 
+{% block scripts %}
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.carousel.carousel-slider').carousel({
+			fullWidth: true,
+			indicators: true
+		});
+	});
+	$(window).scroll(function(){
+		if ($(window).scrollTop() == 0) {
+			console.log($(window).scrollTop());
+			$('nav').css('background-color', 'transparent');
+			$('nav').css('box-shadow', 'none');
+		}
+		else {
+			$('nav').css('background-color', 'white');
+			$('nav').css('box-shadow', '0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)');
+		}
+	});
+</script>
 {% endblock %}

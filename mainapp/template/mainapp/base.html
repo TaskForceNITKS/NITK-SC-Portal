@@ -20,13 +20,15 @@
 
 <body>
 <main>
+    {% block header %}
     <div class="navbar-fixed">
-        <nav class="nav-extended" style="background-color:#263238  !important;">
-            <div class="nav-wrapper">
-                <a href="/" class="brand-logo blue-grey-text text-lighten-5">
-                    <img class="responsive-img left" style="height: 60px;" src="{% static 'images/emblem.png' %}">
-                    <span style="font-size: 22px;">SC Portal</span>
+        <nav class="nav-extended white">
+            <div class="nav-wrapper container">
+                {% block header_left %}
+                <a href="/" class="brand-logo text-lighten-5">
+                    <span style="font-size: 22px;">Students' Council Portal</span>
                 </a>
+                {% endblock %}
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="{% url 'home' %}">Home</a></li>
@@ -59,11 +61,12 @@
         <li><a href="{% url 'club' %}">clubs</a></li>
         <!--<li class="divider"></li>-->
     </ul>
+    {% endblock %}
 
     {% block content %}
     {% endblock %}
 </main>
-<footer class="page-footer">
+<footer class="page-footer black white-text">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -83,8 +86,9 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2019 NITK Surathkal
+            <a class="grey-text text-lighten-4 right" target="_blank" href="https://iris.nitk.ac.in/">IRIS</a>
+            <a class="grey-text text-lighten-4 right" target="_blank" href="https://iris.nitk.ac.in/hrms/placement">Career Development Center&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
         </div>
     </div>
 </footer>
@@ -96,5 +100,7 @@
         $(".dropdown-trigger").dropdown();
     });
 </script>
+{% block scripts %}
+{% endblock %}
 </body>
 </html>
