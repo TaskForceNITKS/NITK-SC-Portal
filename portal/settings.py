@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
     'mainapp',
     'team',
+    'activity',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,74 @@
+{% extends 'mainapp/base.html' %}
+{% block content %}
+<div class="container">
+    <div class="nav-wrapper">
+        <div class="row">
+            <div class="col s12 m10">
+                <h1 class="header">Student Activities</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+
+<div class="container">
+    <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a href="#club">Clubs</a></li>
+        <li class="tab"><a href="#sports">Sports</a></li>
+        <li class="tab"><a href="#fests">Fests</a></li>
+        <li class="tab"><a href="#other">Other</a></li>
+    </ul>
+</div>
+
+
+    <div id="club" class="container">
+
+        <ul class="collapsible">
+
+
+            <li>
+                <div class="row collapsible-header">
+                    Technical Clubs
+                </div>
+                <div class="collapsible-body row">
+                    {% include "activities/group.html" with activities_list=tech_club only %}
+                </div>
+            </li>
+
+            <li>
+                <div class="row collapsible-header">
+                    Cultural Clubs
+                </div>
+                <div class="collapsible-body row">
+                    {% include "activities/group.html" with activities_list=cul_club only %}
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="sports" class="container">
+        <div class="row">
+            {% include "activities/group.html" with activities_list=sports only %}
+        </div>
+    </div>
+    <div id="fests" class="container">
+        <div class="row">
+            {% include "activities/group.html" with activities_list=fests only %}
+        </div>
+    </div>
+    <div id="other" class="container">
+        <div class="row">
+            {% include "activities/group.html" with activities_list=other only %}
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.tabs').tabs();
+        $('.modal').modal();
+        $('.collapsible').collapsible();
+    });
+
+
+</script>
+{% endblock %}
