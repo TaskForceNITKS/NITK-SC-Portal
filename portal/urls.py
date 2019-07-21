@@ -19,6 +19,7 @@ from mainapp import views
 
 urlpatterns = [
     path('sc-admin/', admin.site.urls),
+    path('student-activities/', include('activity.urls')),
     path('know-your-council/', include('team.urls')),
     path('files/', include('db_file_storage.urls')),
     path('',include('mainapp.urls')),
