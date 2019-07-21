@@ -1,46 +1,30 @@
 {% extends 'mainapp/base.html' %}
 {% block content %}
-
-<h1>Documents</h1>
-
-
-
-
-<h5>Minutes of the Meets : </h5>
-{% for a in documents_list %}
-{% if a.type_of_doc == "mom" %}
-
-        <a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}'>
-        <i class="waves-effect waves-light btn">Click here to download  <b>{{a.name}} </b></i>
-    </a><br><br>
-
-{% endif %}
-{% endfor %}
-
-
-
-<h5>Semester Report :</h5>
-{% for a in documents_list %}
-{% if a.type_of_doc == "sem" %}
-
-<a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}'>
-        <i class="waves-effect waves-light btn">Click here to download <b>{{a.name}} </b> </i>
-    </a><br><br>
-
-{% endif %}
-{% endfor %}
-
-
-
-<h5> Other documents : </h5>
-{% for a in documents_list %}
-{% if a.type_of_doc == "other" %}
-
-<a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}'>
-        <i class="waves-effect waves-light btn">Click here to download <b>{{a.name}} </b></i>
-    </a><br><br>
-{% endif %}
-{% endfor %}
-
-
+<div class="container">
+	<h1 class="light">Documents</h1>
+	<h5>Minutes of the Meet</h5>
+	<ul class="collection">
+	{% for a in documents_list %}
+		{% if a.type_of_doc == "mom" %}
+			<li class="collection-item"><div>{{ a.name }}<a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}' class="secondary-content"><i class="material-icons black-text">cloud_download</i></a></div></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	<h5>Semester Reports</h5>
+	<ul class="collection">
+	{% for a in documents_list %}
+		{% if a.type_of_doc == "sem" %}
+			<li class="collection-item"><div>{{ a.name }}<a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}' class="secondary-content"><i class="material-icons black-text">cloud_download</i></a></div></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	<h5>Other Documents</h5>
+	<ul class="collection">
+	{% for a in documents_list %}
+		{% if a.type_of_doc == "other" %}
+			<li class="collection-item"><div>{{ a.name }}<a href='{% url "db_file_storage.download_file" %}?name={{ a.the_file }}' class="secondary-content"><i class="material-icons black-text">cloud_download</i></a></div></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+</div>
 {% endblock %}

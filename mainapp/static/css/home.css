@@ -91,3 +91,20 @@ nav * {
 	color: #212121;
 }
 
+.modal-time {
+	font-size: 2.5rem;
+}
+
+.meeting-card {
+	border-radius: 10px;
+}
+
+.bigger-text {
+	font-size: 1.2rem;
+}
+
+.header-left {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 300ms;
+}

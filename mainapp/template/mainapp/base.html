@@ -13,6 +13,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     {% block extra_css %}
+    <style type="text/css">
+        #dropdown1 {
+            width: initial !important;
+        }
+    </style>
     {% endblock %}
     <title>NITK SC-PORTAL</title>
 
@@ -26,7 +31,7 @@
             <div class="nav-wrapper container">
                 {% block header_left %}
                 <a href="/" class="brand-logo text-lighten-5">
-                    <span style="font-size: 22px;">Students' Council Portal</span>
+                    <span style="font-size: 22px;">NITK Students' Council Portal</span>
                 </a>
                 {% endblock %}
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>

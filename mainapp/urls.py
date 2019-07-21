@@ -9,6 +9,6 @@ urlpatterns=[
        path('contact-info/',views.contact,name='contact'),
        path('townhall-and-sc-meetings/',views.MeetingListView.as_view(),name='meeting_list'),
        path('grievances/',views.grievances,name='grievances'),
-       path('clubs-and-calendar/',views.club,name='club'),
+       path('student-activities/',views.club,name='club'),
        path('documents/',views.DocumentsListView.as_view(),name='documents_list'),
 ]
