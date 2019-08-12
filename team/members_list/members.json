@@ -1,21 +1,6 @@
 [
     {
         "model": "team.member",
-        "pk": 1,
-        "fields": {
-            "name": "Quisquam Consectetur",
-            "post": "Dean Student Welfare",
-            "group": "core",
-            "email": "",
-            "year": null,
-            "image": "https://via.placeholder.com/150",
-            "linkedin": "#",
-            "facebook": "#",
-            "phone": ""
-        }
-    },
-    {
-        "model": "team.member",
         "pk": 2,
         "fields": {
             "name": "Quisquam Consectetur",
@@ -68,21 +53,6 @@
             "group": "core",
             "email": "",
             "year": 2,
-            "image": "https://via.placeholder.com/150",
-            "linkedin": "#",
-            "facebook": "#",
-            "phone": ""
-        }
-    },
-    {
-        "model": "team.member",
-        "pk": 6,
-        "fields": {
-            "name": "Quisquam Consectetur",
-            "post": "Public Relations Coordinator",
-            "group": "core",
-            "email": "",
-            "year": 4,
             "image": "https://via.placeholder.com/150",
             "linkedin": "#",
             "facebook": "#",

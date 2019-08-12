@@ -31,7 +31,7 @@
             <div class="nav-wrapper container">
                 {% block header_left %}
                 <a href="/" class="brand-logo text-lighten-5">
-                    <span style="font-size: 22px;">NITK Students' Council Portal</span>
+                    <span class="header-navigation"></span>
                 </a>
                 {% endblock %}
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -46,7 +46,7 @@
     </div>
     <ul class="sidenav" id="mobile-demo">
         <li><a href="{% url 'home' %}">Home</a></li>
-        <li><a href="{% url 'forms' %}">Forms</a></li>
+        <!--li><a href="{% url 'forms' %}">Forms</a></li-->
         <li><a href="{% url 'announcement_list' %}">Announcements</a></li>
         <li><a href="{% url 'team:council' %}">Council</a></li>
         <li><a href="{% url 'documents_list' %}">Documents</a></li>
@@ -57,13 +57,13 @@
     </ul>
 
     <ul id="dropdown1" class="dropdown-content">
-        <li><a href="{% url 'forms' %}">forms</a></li>
-        <li><a href="{% url 'announcement_list' %}">announcements</a></li>
-        <li><a href="{% url 'team:council' %}">council</a></li>
-        <li><a href="{% url 'documents_list' %}">documents</a></li>
-        <li><a href="{% url 'meeting_list' %}">meetings</a></li>
-        <li><a href="{% url 'grievances' %}">grievances</a></li>
-        <li><a href="{% url 'club' %}">clubs</a></li>
+        <!--li><a href="{% url 'forms' %}">forms</a></li-->
+        <li><a href="{% url 'announcement_list' %}">Announcements</a></li>
+        <li><a href="{% url 'team:council' %}">Council</a></li>
+        <li><a href="{% url 'documents_list' %}">Documents</a></li>
+        <li><a href="{% url 'meeting_list' %}">Meetings</a></li>
+        <li><a href="{% url 'grievances' %}">Grievances</a></li>
+        <li><a href="{% url 'club' %}">Clubs</a></li>
         <!--<li class="divider"></li>-->
     </ul>
     {% endblock %}
@@ -75,25 +75,44 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <div class="white sc-logo-wrapper"><img width="200" src="{% static 'images/sc-logo.png' %}"></div>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Important Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a class="grey-text text-lighten-3" target="_blank" href="https://iris.nitk.ac.in/">IRIS</a></li>
+                    <li><a class="grey-text text-lighten-3" target="_blank" href="https://iris.nitk.ac.in/hrms/placement">Career Development Center</a></li>
+                    <li><a class="grey-text text-lighten-3" target="_blank" href="http://reo.nitk.ac.in/content/hostel-complaint-form">Hostel Office (REO)</a></li>
+                    <li><a class="grey-text text-lighten-3" target="_blank" href="https://prism.nitk.ac.in/">PRISM</a></li>
+                    <li><a class="grey-text text-lighten-3" target="_blank" href="https://nitk.ac.in/">NITK</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2019 NITK Surathkal
-            <a class="grey-text text-lighten-4 right" target="_blank" href="https://iris.nitk.ac.in/">IRIS</a>
-            <a class="grey-text text-lighten-4 right" target="_blank" href="https://iris.nitk.ac.in/hrms/placement">Career Development Center&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col s12 m6 l6">
+                    <div class="valign-wrapper copyright-text">© 2019 NITK Surathkal</div>
+                </div>
+                <div class="col s12 m6 l6 media-icons">
+                    <a target="_blank" href="#">
+                        <svg style="width: 30px; height: 30px;" viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H15.5A3.5,3.5 0 0,0 12,8.5V11H10V14H12V21H15V14H18V11H15V9A1,1 0 0,1 16,8H18V5Z"/>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="#"  style="margin-left: 15px;">
+                        <svg style="width: 30px; height: 30px;" viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z"/>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="#" style="margin-left: 15px;">
+                        <svg style="width: 30px; height: 30px;" viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
@@ -103,6 +122,11 @@
     $(document).ready(function(){
         $('.sidenav').sidenav();
         $(".dropdown-trigger").dropdown();
+        if ($(document).width() > 992) {
+            $('.header-navigation').html("NITK Students' Council Portal");
+        } else {
+            $('.header-navigation').html("NITK SC Portal");
+        }
     });
 </script>
 {% block scripts %}

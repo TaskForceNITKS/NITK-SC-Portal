@@ -9,7 +9,7 @@
 		<div class="nav-wrapper container">
 			{% block header_left %}
 			<a href="/" class="brand-logo text-lighten-5">
-				<span class="header-left" style="font-size: 22px;">NITK Students' Council Portal</span>
+				<span class="header-left header-navigation"></span>
 			</a>
 			{% endblock %}
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -24,7 +24,7 @@
 </div>
 <ul class="sidenav" id="mobile-demo">
 	<li><a href="{% url 'home' %}">Home</a></li>
-	<li><a href="{% url 'forms' %}">Forms</a></li>
+	<!--li><a href="{% url 'forms' %}">Forms</a></li-->
 	<li><a href="{% url 'announcement_list' %}">Announcements</a></li>
 	<li><a href="{% url 'team:council' %}">Council</a></li>
 	<li><a href="{% url 'documents_list' %}">Documents</a></li>
@@ -35,36 +35,41 @@
 </ul>
 
 <ul id="dropdown1" class="dropdown-content">
-	<li><a href="{% url 'forms' %}">forms</a></li>
-	<li><a href="{% url 'announcement_list' %}">announcements</a></li>
-	<li><a href="{% url 'team:council' %}">council</a></li>
-	<li><a href="{% url 'documents_list' %}">documents</a></li>
-	<li><a href="{% url 'meeting_list' %}">meetings</a></li>
-	<li><a href="{% url 'grievances' %}">grievances</a></li>
-	<li><a href="{% url 'club' %}">clubs</a></li>
+	<!--li><a href="{% url 'forms' %}">forms</a></li-->
+	<li><a href="{% url 'announcement_list' %}">Announcements</a></li>
+	<li><a href="{% url 'team:council' %}">Council</a></li>
+	<li><a href="{% url 'documents_list' %}">Documents</a></li>
+	<li><a href="{% url 'meeting_list' %}">Meetings</a></li>
+	<li><a href="{% url 'grievances' %}">Grievances</a></li>
+	<li><a href="{% url 'club' %}">Clubs</a></li>
+	<!--<li class="divider"></li>-->
 </ul>
 {% endblock %}
 {% block content %}
 
 <div class="complete-page hold-back">
 	<div class="container full-page">
-		<div class="row center flex">
-			<div class="col s4 middle-content"><img class="responsive-img emblem" src="{% static 'images/emblem.png' %}"></div>
-			<div class="col s8 middle-content">
+		<div class="only-on-big row center">
+			<div class="col s12 m12 l4 middle-content"><img class="responsive-img emblem" src="{% static 'images/emblem.png' %}"></div>
+			<div class="col s12 m12 l8 middle-content">
 				<p><span class="portal-heading">Students' Council Portal</span><br/><span class="portal-subheading light">National Institute of Technology Karnataka, Surathkal</span></p>
 			</div>
+		</div>
+		<div class="only-on-small center top-dist">
+			<div class="middle-content"><img class="responsive-img emblem-mobile" src="{% static 'images/emblem.png' %}"></div><br>
+			<div class="middle-content"><span class="mobile-landing">NITK Students' Council Portal</span></div>
 		</div>
 	</div>
 </div>
 <div class="row second-section">
-	<div class="col s1"></div>
-	<div class="col s4 center council-msg">
+	<div class="col l1"></div>
+	<div class="col s12 l4 center council-msg">
 		<img src="https://via.placeholder.com/250" class="responsive-img circle" />
 		<h4 class="light">Message from the Council</h4>
 		<p class="left-align italics">&quot;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in quam diam. Nulla sed viverra neque, at lobortis sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&nbsp;&quot;</p>
 	</div>
-	<div class="col s1"></div>
-	<div class="col s5">
+	<div class="col l1"></div>
+	<div class="col s12 l5">
 		<div class="carousel carousel-slider center">
 			<div class="carousel-item red white-text" href="#one!">
 				<h2>First Panel</h2>
@@ -86,8 +91,8 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col s1"></div>
-	<div class="col s4">
+	<div class="col l1"></div>
+	<div class="col s12 l4">
 		<h3 class="light">Latest Announcements</h3>
 		<ul class="collection">
 			{% for a in announcement_list %}
@@ -96,8 +101,8 @@
 		</ul>
 		<a target="_blank" class="waves-effect waves-light btn right" href="{% url 'announcement_list' %}"><i class="material-icons left">open_in_new</i>More Announcements</a>
 	</div>
-	<div class="col s1"></div>
-	<div class="col s5">
+	<div class="col l1"></div>
+	<div class="col s12 l5">
 		<h3 class="light">Upcoming Townhall Meets</h3>
 		{% for a in meeting_list %}
 			<div class="row">
@@ -137,6 +142,13 @@
 			indicators: true
 		});
 		$('.modal').modal();
+		if ($(document).width() > 992) {
+            $('.header-navigation').html("NITK Students' Council Portal");
+            $('.only-on-small').css('display', 'none');
+        } else {
+            $('.header-navigation').html("NITK SC Portal");
+            $('.only-on-big').css('display', 'none');
+        }
 	});
 	$(window).scroll(function(){
 		if ($(window).scrollTop() == 0) {

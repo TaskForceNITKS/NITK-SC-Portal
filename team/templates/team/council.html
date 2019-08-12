@@ -29,8 +29,11 @@
     #dropdown1 {
         width: initial !important;
     }
+
+    .nav-btn {
+        border: 0.5px solid black;
+    }
 </style>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 {% endblock %}
 {% block content %}
@@ -38,15 +41,7 @@
     <div class="nav-wrapper">
         <div class="row">
             <div class="col s12 m10">
-                <h1 class="header">Know Your Council</h1>
-            </div>
-            <div class="col m2 s12">
-                <ul class="section table-of-contents">
-                    <li><a href="#main_council">Core Council, Incident and Engineer Councils</a></li>
-                    <li><a href="#cr">Class Representatives</a></li>
-                    <li><a href="#adv">Advisories</a></li>
-                    <li><a href="#exec">Executive Council</a></li>
-                </ul>
+                <h1 class="header light">Know Your Council</h1>
             </div>
         </div>
     </div>
@@ -54,7 +49,6 @@
 </div>
 
 
-<div class="divider"></div>
 
 <div class="container">
     <h4 class="light header" id="main_council">Student Council </h3>
@@ -75,11 +69,51 @@
 
         </ul>
 </div>
+<br>
+<div class="container">
+    <h4 class="light header" id="exec">Executive Council</h3>
+        <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="Student Activities Adivisory" member_list=stud_act_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Academic Advisory" member_list=acad_adv only %}
+            </li>
 
+            <li>
+                {% include "team/group.html" with group_title="PG and PhD Advisory" member_list=phd_pg_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Sports Advisory" member_list=sports_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Alumni Advisory" member_list=alumni_adv only %}
+            </li>
 
+            <li>
+                {% include "team/group.html" with group_title="Hostel Advisory" member_list=hostel_adv only %}
+            </li>
+        </ul>
+</div>
+<br>
+<div class="container">
+        <ul class="collapsible">
+            <li>
+                {% include "team/group.html" with group_title="Student Activities Adivisory - Club Conveners" member_list=club_con only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Hostel Advisory - Hostel Representatives" member_list=hostel_rep only %}
+            </li>
 
-
-<div class="divider"></div>
+            <li>
+                {% include "team/group.html" with group_title="Sports Advisory - Sports Captains" member_list=sports_cap only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Alumni Advisory - Alumni Coordinators" member_list=alumni_coord only %}
+            </li>
+        </ul>
+</div>
+<br>
 <div class="container">
     <h4 class="light header" id="cr">Class Representatives</h3>
         <ul class="collapsible">
@@ -107,59 +141,12 @@
         </ul>
 </div>
 
-<div class="divider"></div>
-<div class="container">
-    <h4 class="light header" id="adv">Advisories</h3>
-        <ul class="collapsible">
-            <li>
-                {% include "team/group.html" with group_title="Student Activities Adivisory" member_list=stud_act_adv only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Academic Advisory" member_list=acad_adv only %}
-            </li>
-
-            <li>
-                {% include "team/group.html" with group_title="PG and PhD Advisory" member_list=phd_pg_adv only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Sports Advisory" member_list=sports_adv only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Alumni Advisory" member_list=alumni_adv only %}
-            </li>
-
-            <li>
-                {% include "team/group.html" with group_title="Hostel Advisory" member_list=hostel_adv only %}
-            </li>
-        </ul>
-</div>
-
-<div class="divider"></div>
-<div class="container">
-    <h4 class="light header" id="exec">Executive Council</h3>
-        <ul class="collapsible">
-            <li>
-                {% include "team/group.html" with group_title="Club Converners" member_list=club_con only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Hostel Representatives" member_list=hostel_rep only %}
-            </li>
-
-            <li>
-                {% include "team/group.html" with group_title="Sports Captains" member_list=sports_cap only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Alumni Coordinators" member_list=alumni_coord only %}
-            </li>
-        </ul>
-</div>
-
 {% comment %}
 https://github.com/Dogfalo/materialize/issues/963
 philipraets comment
 {% endcomment %}
 <div id="main-btn" class="fixed-action-btn click-to-toggle" style="bottom:24px; right:24px;">
-    <a class="btn-floating btn-large red"><i class="large material-icons">menu</i></a>
+    <a class="btn-floating btn-large white nav-btn"><i class="large material-icons black-text">menu</i></a>
     <ul>
         <li>
             <a href="#main_council" class="btn-floating teal"><i class="material-icons">chevron_left</i></a>
@@ -167,18 +154,13 @@ philipraets comment
             <!--tooltip-->
         </li>
         <li>
+            <a href="#exec" class="btn-floating blue"><i class="material-icons">chevron_left</i></a>
+            <a href="#exec" class="btn-floating mobile-fab-tip ">Advisories</a>
+            <!--tooltip-->
+        </li>
+        <li>
             <a href="#cr" class="btn-floating amber lighten-1"><i class="material-icons">chevron_left</i></a>
             <a href="#cr" class="btn-floating mobile-fab-tip">Class Representatives</a>
-            <!--tooltip-->
-        </li>
-        <li>
-            <a href="#adv" class="btn-floating blue"><i class="material-icons">chevron_left</i></a>
-            <a href="#adv" class="btn-floating mobile-fab-tip ">Advisories</a>
-            <!--tooltip-->
-        </li>
-        <li>
-            <a href="#exec" class="btn-floating orange accent-4 "><i class="material-icons">chevron_left</i></a>
-            <a href="#exec" class="btn-floating mobile-fab-tip ">Executive Council</a>
             <!--tooltip-->
         </li>
     </ul>
