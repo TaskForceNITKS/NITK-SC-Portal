@@ -3,14 +3,14 @@
         "model": "team.member",
         "pk": 2,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nihal Shetty",
             "post": "Student Council President",
             "group": "core",
             "email": "",
             "year": 4,
             "image": "https://via.placeholder.com/150",
             "linkedin": "#",
-            "facebook": "#",
+            "facebook": "www.facebook.com/shettynhl",
             "phone": ""
         }
     },
@@ -18,7 +18,7 @@
         "model": "team.member",
         "pk": 3,
         "fields": {
-            "name": "Quisquam Consecteturium",
+            "name": "Madhurya Mukkavilli",
             "post": "Vice President",
             "group": "core",
             "email": "",
@@ -33,7 +33,7 @@
         "model": "team.member",
         "pk": 4,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nikhil Raj Nune",
             "post": "General Secretary SC",
             "group": "core",
             "email": "",
@@ -48,7 +48,7 @@
         "model": "team.member",
         "pk": 5,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Luv Nambiar",
             "post": "Joint Secretary SC",
             "group": "core",
             "email": "",
@@ -63,7 +63,7 @@
         "model": "team.member",
         "pk": 7,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Shubham Bhardwaj",
             "post": "Engineer Convenor",
             "group": "engineer",
             "email": "",
@@ -78,7 +78,7 @@
         "model": "team.member",
         "pk": 8,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Anish Arvind Patil",
             "post": "Engineer Secretary",
             "group": "engineer",
             "email": "",
@@ -93,7 +93,7 @@
         "model": "team.member",
         "pk": 9,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Utkarsh Ghiya",
             "post": "Engineer Joint Secretary",
             "group": "engineer",
             "email": "",
@@ -108,7 +108,7 @@
         "model": "team.member",
         "pk": 10,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Sachin Acharya",
             "post": "Incident Convenor",
             "group": "incident",
             "email": "",
@@ -123,7 +123,7 @@
         "model": "team.member",
         "pk": 11,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nikhil Shobu Varghese",
             "post": "Incident Secretary",
             "group": "incident",
             "email": "",
@@ -138,7 +138,7 @@
         "model": "team.member",
         "pk": 12,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Koushik varma",
             "post": "Incident Joint Secretary",
             "group": "incident",
             "email": "",
@@ -153,7 +153,7 @@
         "model": "team.member",
         "pk": 13,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Uday Patil",
             "post": "PhD Advisor",
             "group": "phd-pg-advisory",
             "email": "",
@@ -168,7 +168,7 @@
         "model": "team.member",
         "pk": 14,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nagarjuna Chavana",
             "post": "PG Advisor (Boys)",
             "group": "phd-pg-advisory",
             "email": "",
@@ -183,7 +183,7 @@
         "model": "team.member",
         "pk": 15,
         "fields": {
-            "name": "Quisquam Consecteturium",
+            "name": "Emin Maria",
             "post": "PG Advisor (Girls)",
             "group": "phd-pg-advisory",
             "email": "",
@@ -198,7 +198,7 @@
         "model": "team.member",
         "pk": 16,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Rajeev",
             "post": "Academic Advisor",
             "group": "acadamic-advisory",
             "email": "",
@@ -213,7 +213,7 @@
         "model": "team.member",
         "pk": 17,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Srinadh reddy",
             "post": "Academic Secretary",
             "group": "acadamic-advisory",
             "email": "",
@@ -228,7 +228,7 @@
         "model": "team.member",
         "pk": 18,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Piyush Ingale",
             "post": "Academic Joint Secretary",
             "group": "acadamic-advisory",
             "email": "",
@@ -243,7 +243,7 @@
         "model": "team.member",
         "pk": 19,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Swapnil Ramdas Chavan",
             "post": "Student Activities Advisor",
             "group": "student-activites-advisory",
             "email": "",
@@ -258,7 +258,7 @@
         "model": "team.member",
         "pk": 20,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Joel Chacko Jacob",
             "post": "Student Activities Secretary",
             "group": "student-activites-advisory",
             "email": "",
@@ -273,7 +273,7 @@
         "model": "team.member",
         "pk": 21,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Hardik L Harti",
             "post": "Student Activities Joint Secretary",
             "group": "student-activites-advisory",
             "email": "",
@@ -288,7 +288,7 @@
         "model": "team.member",
         "pk": 22,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Yash Gangwal",
             "post": "Alumni Advisor",
             "group": "alumni-advisory",
             "email": "",
@@ -303,7 +303,7 @@
         "model": "team.member",
         "pk": 23,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nihal Mohamed Naeem",
             "post": "Alumni Secretary",
             "group": "alumni-advisory",
             "email": "",
@@ -318,7 +318,7 @@
         "model": "team.member",
         "pk": 24,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "A.Venkata krishna",
             "post": "Alumni Joint Secretary",
             "group": "alumni-advisory",
             "email": "",
@@ -333,7 +333,7 @@
         "model": "team.member",
         "pk": 25,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Rohit Srivatsav",
             "post": "Sports Advisor",
             "group": "sports-advisory",
             "email": "",
@@ -348,7 +348,7 @@
         "model": "team.member",
         "pk": 26,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Aditya Satpute",
             "post": "Sports Secretary",
             "group": "sports-advisory",
             "email": "",
@@ -363,7 +363,7 @@
         "model": "team.member",
         "pk": 27,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Gayatri Tanksali",
             "post": "Sports Joint Secretary",
             "group": "sports-advisory",
             "email": "",
@@ -378,7 +378,7 @@
         "model": "team.member",
         "pk": 28,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Ishita Goyal",
             "post": "CH Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -386,14 +386,14 @@
             "image": "https://via.placeholder.com/150",
             "linkedin": "#",
             "facebook": "#",
-            "phone": ""
+            "phone": "9535824555"
         }
     },
     {
         "model": "team.member",
         "pk": 29,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Prakruti Vora",
             "post": "MT Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -408,7 +408,7 @@
         "model": "team.member",
         "pk": 30,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "A Venkata krishna",
             "post": "MN Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -423,7 +423,7 @@
         "model": "team.member",
         "pk": 31,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Lomada Praveen Kumar Reddy",
             "post": "CO1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -438,7 +438,7 @@
         "model": "team.member",
         "pk": 32,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Adithi srinath",
             "post": "CO2 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -453,7 +453,7 @@
         "model": "team.member",
         "pk": 33,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "ANIL NAYAK",
             "post": "CV1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -468,7 +468,7 @@
         "model": "team.member",
         "pk": 34,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Ushasri",
             "post": "CV2 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -483,7 +483,7 @@
         "model": "team.member",
         "pk": 35,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Adithya LHS",
             "post": "EC1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -498,7 +498,7 @@
         "model": "team.member",
         "pk": 36,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "P Sriram Saran",
             "post": "EC2 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -513,7 +513,7 @@
         "model": "team.member",
         "pk": 37,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Vamshi A C",
             "post": "EE1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -528,7 +528,7 @@
         "model": "team.member",
         "pk": 38,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "RAKSHITHA P",
             "post": "EE2 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -543,7 +543,7 @@
         "model": "team.member",
         "pk": 39,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Piyush Ingale",
             "post": "IT1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -558,7 +558,7 @@
         "model": "team.member",
         "pk": 41,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Muhammed Razi",
             "post": "ME1 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -573,7 +573,7 @@
         "model": "team.member",
         "pk": 42,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Liz George",
             "post": "ME2 Second Year CR",
             "group": "cr-2",
             "email": "",
@@ -588,7 +588,7 @@
         "model": "team.member",
         "pk": 43,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Nihal Mohamed Naeem",
             "post": "CH Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -603,7 +603,7 @@
         "model": "team.member",
         "pk": 44,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Hemanth N R",
             "post": "MT Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -618,7 +618,7 @@
         "model": "team.member",
         "pk": 45,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Ayush Arun Singh",
             "post": "MN Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -633,7 +633,7 @@
         "model": "team.member",
         "pk": 46,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Veena Nagar",
             "post": "CO1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -648,7 +648,7 @@
         "model": "team.member",
         "pk": 47,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "K. Anil kumar",
             "post": "CO2 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -663,7 +663,7 @@
         "model": "team.member",
         "pk": 48,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Rashmi raj",
             "post": "CV1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -678,7 +678,7 @@
         "model": "team.member",
         "pk": 49,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Abhishek Yadav",
             "post": "CV2 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -693,7 +693,7 @@
         "model": "team.member",
         "pk": 50,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "ROHIT KHOJA",
             "post": "EC1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -708,7 +708,7 @@
         "model": "team.member",
         "pk": 51,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "R V Nikhita",
             "post": "EC2 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -723,7 +723,7 @@
         "model": "team.member",
         "pk": 52,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Hitesh B",
             "post": "EE1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -738,7 +738,7 @@
         "model": "team.member",
         "pk": 53,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "B. Alagu Parvathy",
             "post": "EE2 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -753,7 +753,7 @@
         "model": "team.member",
         "pk": 54,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Kiran C",
             "post": "IT1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -764,26 +764,12 @@
             "phone": ""
         }
     },
-    {
-        "model": "team.member",
-        "pk": 55,
-        "fields": {
-            "name": "Quisquam Consectetur",
-            "post": "IT2 Third Year CR",
-            "group": "cr-3",
-            "email": "",
-            "year": 3,
-            "image": "https://via.placeholder.com/150",
-            "linkedin": "#",
-            "facebook": "#",
-            "phone": ""
-        }
-    },
+
     {
         "model": "team.member",
         "pk": 56,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Shravan S Devadiga",
             "post": "ME1 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -798,7 +784,7 @@
         "model": "team.member",
         "pk": 57,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Karthik M",
             "post": "ME2 Third Year CR",
             "group": "cr-3",
             "email": "",
@@ -813,7 +799,7 @@
         "model": "team.member",
         "pk": 58,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Yash Gangwal",
             "post": "CH Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -828,7 +814,7 @@
         "model": "team.member",
         "pk": 59,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Rajeev",
             "post": "MT Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -843,7 +829,7 @@
         "model": "team.member",
         "pk": 60,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "J ARAVIND",
             "post": "MN Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -858,7 +844,7 @@
         "model": "team.member",
         "pk": 61,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Gautam Ramakrishnan",
             "post": "CO1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -873,7 +859,7 @@
         "model": "team.member",
         "pk": 62,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Praveen Naik S",
             "post": "CO2 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -888,7 +874,7 @@
         "model": "team.member",
         "pk": 63,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Veeresh Gangadhar Gachhi",
             "post": "CV1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -903,7 +889,7 @@
         "model": "team.member",
         "pk": 64,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Aishwarya Rao",
             "post": "CV2 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -918,7 +904,7 @@
         "model": "team.member",
         "pk": 65,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Jatin JM",
             "post": "EC1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -933,7 +919,7 @@
         "model": "team.member",
         "pk": 66,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "G K Sai Srinivas",
             "post": "EC2 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -948,7 +934,7 @@
         "model": "team.member",
         "pk": 67,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Adithya M",
             "post": "EE1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -963,7 +949,7 @@
         "model": "team.member",
         "pk": 68,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Adityaa Maan",
             "post": "EE2 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -978,7 +964,7 @@
         "model": "team.member",
         "pk": 69,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Talluri Angel Supriya",
             "post": "IT1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -989,26 +975,12 @@
             "phone": ""
         }
     },
-    {
-        "model": "team.member",
-        "pk": 70,
-        "fields": {
-            "name": "Quisquam Consectetur",
-            "post": "IT2 Fourth Year CR",
-            "group": "cr-4",
-            "email": "",
-            "year": 4,
-            "image": "https://via.placeholder.com/150",
-            "linkedin": "#",
-            "facebook": "#",
-            "phone": ""
-        }
-    },
+
     {
         "model": "team.member",
         "pk": 71,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Niraj Iyer",
             "post": "ME1 Fourth Year CR",
             "group": "cr-4",
             "email": "",
@@ -1023,7 +995,7 @@
         "model": "team.member",
         "pk": 72,
         "fields": {
-            "name": "Quisquam Consectetur",
+            "name": "Madhu Jayaprakash Nayak",
             "post": "ME2 Fourth Year CR",
             "group": "cr-4",
             "email": "",

@@ -3,9 +3,9 @@
         "model": "activity.crew",
         "pk": 1,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "ISTE",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/file/d/1tGEHwGDIC9mnvRtu7-6GEVXBPHG8jqs7/view?usp=sharing",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 1
         }
@@ -14,9 +14,9 @@
         "model": "activity.crew",
         "pk": 2,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "ACM",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1A_kCV6t0DKeBGEA2AFxNCq4SJ7v_tFqc",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 1
         }
@@ -25,9 +25,9 @@
         "model": "activity.crew",
         "pk": 3,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "IEEE",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1t-hKbmc0jueiCnYCFxq6g1kDd3EYJJ8e",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 1
         }
@@ -36,9 +36,9 @@
         "model": "activity.crew",
         "pk": 4,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "IE",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1Pf1BsVmpStRctVforo4Ht9t8kFfKKfW0",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 1
         }
@@ -47,9 +47,9 @@
         "model": "activity.crew",
         "pk": 5,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "IET",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1pzu_QnHoArY5t8xZql94KMov6L4zBrDV",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 1
         }
@@ -91,9 +91,9 @@
         "model": "activity.crew",
         "pk": 9,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "AF",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1zSFxcb3BpbOaYevPywgaUGzhd5pSl5q4",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 2
         }
@@ -102,9 +102,9 @@
         "model": "activity.crew",
         "pk": 10,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "AAC",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1LIlSWLy3NQBq_D2tfrjGNE9PtTWa7PV9",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 2
         }
@@ -113,9 +113,9 @@
         "model": "activity.crew",
         "pk": 11,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "LSD",
             "subtitle": "piscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1T5o2PF_Tf7xfYMj0xxf8XWH7-5McsWpM",
             "description": "is aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 2
         }
@@ -135,9 +135,9 @@
         "model": "activity.crew",
         "pk": 13,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "Engineer",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1MkJIbFkPQpDAAWDZXYGr8C_nwNiQ2KQ3",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 3
         }
@@ -146,9 +146,9 @@
         "model": "activity.crew",
         "pk": 14,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "Incident",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1G9MhyHOKzna0iYgL5Erehx3cOTuWMyc1",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 3
         }
@@ -190,9 +190,9 @@
         "model": "activity.crew",
         "pk": 18,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "Volleyball",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=1cKMgQcUefh6TXWW9ZT2hu_kMJ2wmNDea",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 4
         }
@@ -201,9 +201,9 @@
         "model": "activity.crew",
         "pk": 19,
         "fields": {
-            "title": "Lorem ipsum dolor",
+            "title": "Throwball",
             "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
+            "image": "https://drive.google.com/open?id=15CsaBNevnaNNXLHcMRPRzK8t6oZ5PoBp",
             "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
             "section": 4
         }
