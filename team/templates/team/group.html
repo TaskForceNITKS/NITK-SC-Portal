@@ -1,7 +1,7 @@
 {% comment %}
 If u are adding more information about each memeber delete/adjust the ob css class
-If the webpage layout gets messed up delete the ob CSS class. 
-I have just added it to control the layout so that the different cells dont overlap on tablet size displays. 
+If the webpage layout gets messed up delete the ob CSS class.
+I have just added it to control the layout so that the different cells dont overlap on tablet size displays.
 {% endcomment%}
 
 
@@ -12,8 +12,9 @@ I have just added it to control the layout so that the different cells dont over
 
     {% for obj in member_list %}
     <div class=" center col s12 m3 ob">
-
+           {% if obj.group is not "cr-2" or obj.group is not "cr-3" or obj.group is not "cr-4" %}
         <img src="https://via.placeholder.com/150" class="circle responsive-img hide-on-small-only">
+
         <p class="promo-caption">{{obj.post}}</p>
         <p class="light">
             {{obj.name}}
@@ -30,6 +31,7 @@ I have just added it to control the layout so that the different cells dont over
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
             </span>
         </a>
+        {% endif %}
         <p>
             <a class="envelope social" href="mailto:{{obj.email}} target=" _blank">
                 <i class="fa fa-envelope"></i>
