@@ -1,4 +1,5 @@
 {% extends 'mainapp/base.html' %}
+{% load static %}
 {% block extra_css %}
 	<style type="text/css">
 		#dropdown1 {
@@ -35,8 +36,15 @@
 			font-size: 3.8rem;
 		}
 
+		.card-title {
+			font-weight: 700 !important;
+			-webkit-text-stroke-width: 0.5px;
+			-webkit-text-stroke-color: black;
+		}
+
 		.card-subtitle {
 			font-size: 18px;
+			font-weight: 600;
 		}
 
 		@media only screen and (max-width: 992px) {
@@ -69,7 +77,7 @@
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
+							<img src="{% static 'images/team/prc1.jpg' %}">
 							<span class="card-title">Krishna K V</span>
 						</div>
 						<div class="card-content">
@@ -80,7 +88,7 @@
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
+							<img src="{% static 'images/team/prc2.JPG' %}">
 							<span class="card-title">Anurag P K</span>
 						</div>
 						<div class="card-content">
@@ -96,8 +104,8 @@
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
-							<span class="card-title">Nihal Shetty<br><span class="card-subtitle light">Student Council President</span></span>
+							<img src="{% static 'images/team/2.jpg' %}">
+							<span class="card-title">Nihal Shetty<br><span class="card-subtitle">Student Council President</span></span>
 						</div>
 						<div class="card-content">
 							<p><i class="material-icons left">email</i>studentpresident@nitk.edu.in<br><br><i class="material-icons left">call</i>+91 94822 60459</p>
@@ -107,8 +115,8 @@
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
-							<span class="card-title">Madhurya Mukkavilli<br><span class="card-subtitle light">Vice President</span></span>
+							<img src="{% static 'images/team/3.jpg' %}">
+							<span class="card-title">Madhurya Mukkavilli<br><span class="card-subtitle">Vice President</span></span>
 						</div>
 						<div class="card-content">
 							<p><i class="material-icons left">email</i>suryamadhurya@gmail.com<br><br><i class="material-icons left">call</i>+91 91088 71199</p>
@@ -120,22 +128,22 @@
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
-							<span class="card-title">My Name<br><span class="card-subtitle light">Designation</span></span>
+							<img src="{% static 'images/team/4.JPG' %}">
+							<span class="card-title">Nikhil Raj<br><span class="card-subtitle">General Secretary</span></span>
 						</div>
 						<div class="card-content">
-							<p><i class="material-icons left">email</i>abc@nitk.edu.in<br><br><i class="material-icons left">call</i>+91 90090 90909</p>
+							<p><i class="material-icons left">email</i>nikhilrajn963@gmail.com<br><br><i class="material-icons left">call</i>+91 89711 53897</p>
 						</div>
 					</div>
 				</div>
 				<div class="col s12 l6">
 					<div class="card">
 						<div class="card-image">
-							<img src="https://via.placeholder.com/250">
-							<span class="card-title">My Name<br><span class="card-subtitle light">Designation</span></span>
+							<img src="{% static 'images/team/5.jpg' %}">
+							<span class="card-title">Luv Nambiar<br><span class="card-subtitle">Joint Secretary</span></span>
 						</div>
 						<div class="card-content">
-							<p><i class="material-icons left">email</i>abc@nitk.edu.in<br><br><i class="material-icons left">call</i>+91 90090 90909</p>
+							<p><i class="material-icons left">email</i>luvnambiar22@gmail.com<br><br><i class="material-icons left">call</i>+91 90723 33067</p>
 						</div>
 					</div>
 				</div>

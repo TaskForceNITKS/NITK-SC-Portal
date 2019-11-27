@@ -4,6 +4,7 @@ If the webpage layout gets messed up delete the ob CSS class.
 I have just added it to control the layout so that the different cells dont overlap on tablet size displays.
 {% endcomment%}
 
+{% load static %}
 
 <div class="row collapsible-header">
     {{group_title}}
@@ -12,12 +13,14 @@ I have just added it to control the layout so that the different cells dont over
 
     {% for obj in member_list %}
     <div class=" center col s12 m3 ob">
-           {% if obj.group is not "cr-2" or obj.group is not "cr-3" or obj.group is not "cr-4" %}
-        <img src="https://via.placeholder.com/150" class="circle responsive-img hide-on-small-only">
-
-        <p class="promo-caption">{{obj.post}}</p>
+        {% if obj.group|slice:"0:2" != "cr" %}
+        {% with 'images/team/'|add:obj.image|add:'' as image_static %}
+        <img src="{% static image_static %}" class="circle responsive-img avatar hide-on-small-only">
+        {% endwith %}
+        {% endif %}
+        <p class="promo-caption">{{obj.name}}</p>
         <p class="light">
-            {{obj.name}}
+            {{obj.post}}
         </p>
         <a href="{{obj.facebook}}">
             <span class="fa-stack fa">
@@ -31,14 +34,13 @@ I have just added it to control the layout so that the different cells dont over
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
             </span>
         </a>
-        {% endif %}
         <p>
-            <a class="envelope social" href="mailto:{{obj.email}} target=" _blank">
+            <a class="envelope social" href="mailto:{{obj.email}}" target=" _blank">
                 <i class="fa fa-envelope"></i>
                 {{obj.email}}
             </a>
         </p>
-        <p>
+        <p class="phone">
             <i class="fa fa-phone" aria-hidden="true"></i>
             {{obj.phone}}
         </p>
@@ -46,3 +48,13 @@ I have just added it to control the layout so that the different cells dont over
 
     {% endfor %}
 </div>
+<style>
+.envelope, .phone {
+    font-size: 0.7rem;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+</style>

@@ -30,6 +30,7 @@ def council_view(request):
     q_sports_cap = Member.objects.filter(group='sports-cap')
     q_hostel_rep = Member.objects.filter(group='hostel-rep')
     q_alumni_coord = Member.objects.filter(group='alumni-coordinator')
+    q_prc = Member.objects.filter(group='prc')
 
     context={
         'object_list' : queryset,
@@ -52,7 +53,7 @@ def council_view(request):
         'sports_cap' : q_sports_cap,
         'hostel_rep' : q_hostel_rep,
         'alumni_coord' : q_alumni_coord,
-
-
+        'prc': q_prc,
+        'cr_groups': ["cr1", "cr2", "cr3", "cr4", "cr_phd", "cr_pg"],
     }
     return render(request, 'team/council.html' , context)

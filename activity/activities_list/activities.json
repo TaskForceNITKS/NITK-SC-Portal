@@ -4,9 +4,9 @@
         "pk": 1,
         "fields": {
             "title": "ISTE",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/file/d/1tGEHwGDIC9mnvRtu7-6GEVXBPHG8jqs7/view?usp=sharing",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "subtitle": "CONVENER: Dominic Davies",
+            "image": "1.JPG",
+            "description": "Major events:- Scotland Yard, Transcend, Basic Electronics Workshop, Spectacle, Cryptonite, Social Initiative and Imagineer (in collaboration with ACM and ECell)<br /><br />Indian Society for Technical Education - NITK Chapter is the oldest technical society at the National Institute of Technology Karnataka. <br /><br />Besides organizing technical and cultural events and competitions for students of the institution, ISTE - NITK also hosts a range of workshops and educational seminars (KEPs).<br /><br />ISTE-NITK also strives to promote liberal arts of the members via Special Interest Groups within the club, including, but not limited to, computer science, electrical and electronics, mechanics and robotics, civil engineering, business and finance, literature and language, video editing, photography and digital content creation. The club does not only delve into the technical aspects, but also contributes to society through its Social Initiative programmes. The club also organizes summer mentorship programmes for the first years during the summer break to help enhance their technical prowess.<br /><br />ISTE-NITK prides itself in conducting rigorous technical and HR interviews for every single applicant. These consist of 3 rounds (2 technical + 1 HR) and take place over a period of 10-12 days.<br /><br />Ongoing Projects: <br />1. Modeling, Optimization and Control of a Distillation Unit<br />2. Cost estimation using Artificial Neural Networks<br />3. Pose Detection in Real TimeCONVENER<br />4. Investor Sentiments & its effect on the Market",
             "section": 1
         }
     },
@@ -15,9 +15,9 @@
         "pk": 2,
         "fields": {
             "title": "ACM",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1A_kCV6t0DKeBGEA2AFxNCq4SJ7v_tFqc",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "subtitle": "CONVENER: Srijit Sen",
+            "image": "2.JPG",
+            "description": "MAJOR EVENTS: <br />1. Innovision - Apprentice, Jugaad, Cryptic and Hardwired<br />2. Hackathon (in collaboration with IE)<br />3. Imagineer - a state of the art Makeathon - in collaboration with ECell and ISTE<br />4. ACM Mozilla Web VR<br />5. Multiverse<br />6. Eminent Speaker Programme<br /><br />ACM NITK plans and organizes a wide range of events that include technical workshops, guest lectures, online events and various other competitions at NITK, throughout the year. The members come from all disciplines, backgrounds and interests providing a forum for students to undertake technical projects, develop organisational and leadership skills, and find like-minded students to work with. From Biped Robots to Deep Learning problems, there have been a plethora of ideas and innovations. Aside from technical work, Vidyarthi and Shiksha (social initiatives) help the students at the NITK Kannada Medium School. Students are eligible for recruitment at the start of their second year. The recruitment process involves a written test followed by two rounds of personal interviews. Recruitment for each different stream is held separately and students can sit for one or more streams regardless of their branch. For first years, it's an open invite to come and attend the club’s events year round and get to know the seniors at the club.<br /><br />Ongoing projects : <br />1. A rubic cube solver<br />2. Development of fuel mix for model rocketry<br />3. Robotic arm<br />4. Prediction of default on bank loans using ML",
             "section": 1
         }
     },
@@ -26,9 +26,9 @@
         "pk": 3,
         "fields": {
             "title": "IEEE",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1t-hKbmc0jueiCnYCFxq6g1kDd3EYJJ8e",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "subtitle": "CONVENER: Adithya Prabhu",
+            "image": "3.JPG",
+            "description": "Major events: <br />1. Insight - Career & Internship talk series <br />2. First Fest - One week techno-fest organized for the freshers <br />3. Envision - Platform for IEEE student members to work on innovative projects for the academic year<br />4. Knowledge Sharing Sessions <br />5. Technical Workshops <br />6. Talk Series by prominent members of Academia or Industry <br />7. Summer Mentorship Program<br />8. Dishaspoorthi - A career guidance talk to reach SSLC students of NITK school.<br /><br />IEEE is the world's largest professional association, advancing innovation and technological excellence for the benefit of humanity. IEEE NITK belongs to the Region 10 under Bangalore Section. Founded in 1988, it is an award winning student branch and one of the biggest worldwide. The members inspire the community to innovate for a better tomorrow, through publications, innovative projects and educational activities. Students who have taken IEEE Student Membership in their first year, directly qualify for the interview rounds during their second year. Other non-member students need to give a screening test, to qualify for the interviews. Further screening is done to select the Executive Members of the club. Recruitments generally take place during the 1st and 2nd week of August.<br /><br />Ongoing Projects: <br />1. CompSoc - Age and Gender classification using CNNs , AI-NLP : Deep learning for conversational information agents <br />2. Circuits and Systems / Signal Processing Society - LiFi based Indoor Positioning System, Car Crash Prediction, Delivery Bot(Envision) <br />3. Piston - Aerodynamic flutter analysis, 4 bar plotter, Walking bot, Parametric Modelling of Aircraft Engines",
             "section": 1
         }
     },
@@ -37,9 +37,9 @@
         "pk": 4,
         "fields": {
             "title": "IE",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1Pf1BsVmpStRctVforo4Ht9t8kFfKKfW0",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "subtitle": "CONVENER: Mishal Shah",
+            "image": "4.JPG",
+            "description": "Major events: <br />1. \"Spark\" the flagship event, is inspired by the TED Talk Series and conducted on a college scale. NITK students, who have a niche for the extraordinary, are invited as speakers to share their experience of traversing roads less taken.<br />2. “Read the F**king Manual” is an event that tests critical reading skills and logical abilities by doing what the title says. The idea is to provide documentation of a new concept and test the participants ability to apply that knowledge on-the-spot.<br />3. “Sync” is an enigmatic event wherein the final round involves a crime scene setup and a story that is narrated to the finalists, whose task is to explain how the crime occurred.<br />4. The event “Logician” is based on deterministic logic and electronics know-how. Teams are required to crack an encoded puzzle and subsequently achieve a successful breadboard implementation.<br />5. “King Of The Hills,” or KOTH, is a tech-based competition that encourages collaboration among team members and puts their soft skills to test.<br />6. Technical Workshops and KEPs<br />7. Hackathon (in collaboration with ACM)<br />8. Summer Mentorship Program for the first years<br /><br />The Institution of Engineers, NITK Chapter is an exclusive technical club whose aim is to enhance the technical expertise of the fellow members and the student community, while acknowledging the importance of interdisciplinary and social work. The members fall into three core Special Interest Groups (SIGs) namely Code, Gadget and Garage. There are also auxiliary SIGs for members who are passionate about design, literature, social service or robotics. These SIGs are dynamic in nature and members are even encouraged to introduce aux-SIGs where deemed necessary. Second years are eligible for recruitment to the club. Those interested in joining the club must fill in the application form (about technical skills & interests, extracurricular activities), which will be sent out in the first 2-3 weeks of the odd semester. Scrutiny based on the form is followed by a series of technical and HR interviews. Results are announced on the IE Website.<br /><br />Ongoing projects: <br />1. Identifying Fake Accounts in Social Network.<br />2. Inorganic material synthesis<br />3. Face Recognition by a moving bot<br />4. Solar Tracker<br />5. Movie recommender based on mood",
             "section": 1
         }
     },
@@ -48,9 +48,9 @@
         "pk": 5,
         "fields": {
             "title": "IET",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1pzu_QnHoArY5t8xZql94KMov6L4zBrDV",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "subtitle": "CONVENER: Bhargav S S",
+            "image": "5.JPG",
+            "description": "Major events: IET INNERVE,  PRESENT AROUND THE WORLD (PATW), Virtual Bounty, Frame A Plot, Summer Mentorship Programme, IET NICE<br /><br />IET NITK chapter is an exclusive technical club under IET London division. It is actively involved in inculcating a passion for innovation and appreciation for scientific temperament in the minds of those who have the potential to change the future. It conducts seminars and workshops throughout the academic calendar striving to impart relevant skills to the students. IET plays an integral role in planning and organizing various events in the techno-cultural fests of the institute, i.e. Engineer and Incident. Apart from this, IET strives to invite eminent personalities to conduct lectures for the benefit of the club members, at the same time keeping the doors open for others interested. Its uniqueness lies in the fact that despite being a technical club, it gives one an opportunity to enhance his/her social as well as managerial skills. It aims to sharpen skills of all students irrespective of which course/branch they belong to. Recruitment process generally takes place in the early weeks of August. It involves a written/online test followed by two rounds of personal interviews.<br /><br />Ongoing projects : <br />1. Identification of Indian Currency bills<br />2. Facial expressions to emojis<br />3. Human activity recognition system <br />4. Traffic signal and obstacles detection <br />5. Smart pill dispenser <br />6. Self driving bot with arduino based camera <br />7. Pedal operated mobile charger ",
             "section": 1
         }
     },
@@ -58,10 +58,10 @@
         "model": "activity.crew",
         "pk": 6,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "title": "BAJA NITK RACING",
+            "subtitle": "CAPTAIN:  Adithya Prabhu",
+            "image": "6.JPG",
+            "description": "MAJOR EVENTS:<br />1. Baja Sae India <br />2. Virtual Baja<br /><br />Other activities during the academic year:<br />1. Baja Quiz<br />2. Seminar in CSD (Center for systems design)<br />3. Pre recruitment talk<br />4. Recruitment<br />5. Knowledge Transfer<br /><br />It is a team of undergraduate students that design, fabricate, race and market all terrain vehicles to compete in the Baja Sae Collegiate series. Recruitment to the team (technical and marketing) is done through a written test and 2 interviews that take place in March every year. <br /><br />Ongoing activities undertaken by each subsystem : <br /><br />1. Design and Analysis<br /><br />The principal activities of the Design and Analysis subsystem involve engineering of various components for use on the ATV. This includes conceptualisation and validation of the roll cage, knuckles, wheel hubs, tabs, body panels, firewall, and mounts for the driver’s seat and other equipment. All the designs created by the subsystem must be competitive, cost-effective, and in conformance with the BAJA SAE India rulebook. All components are designed using CATIA V5R20 and analysed using ANSYS. The analyses performed include finite element analysis to determine the factor of safety, modal analysis to determine the modes of vibration, and fatigue analysis to determine the life of the component.<br /><br />Power train<br /><br />Powertrain subsystem primarily deals with components to run the car effectively on an off-road track. Our present outline of the transmission includes a stock Briggs and Stratton Model 19 Vanguard 10hp (Gross power output), with a maximum torque output of 19.2 N-m @ 3600 rpm.<br />To reduce the rpm and increase the torque to appropriate levels, a continuously variable transmission is used which provides variable gear-ratios between 3.5 to 0.45. A custom made single reduction gearbox is employed at the output of the CVT of gear-ratio 13 to reduce rpm and increase torque further. Our subsystem designs and fabricates the gearbox along with appropriate transmission assembly to ensure an optimal chassis design in the rear. Necessary guards and shields are conceptualized and fabricated for safety, ergonomics and material optimization in accordance with the guidelines laid down in the BAJA SAE INDIA rulebook.<br /><br />Vehicle dynamics<br /><br />Vehicle Dynamics is the backbone of a car’s performance. Without the study of this subject, a car would fail to perform even with a phenomenal spec sheet backing it. This subsystem ensures that the components of the vehicle are able to work at the maximum achievable efficiency. The subsystem tasks can be broadly divided into three major categories: 1. Suspension system 2. Steering system 3. Brake system Implementation of design is one of the major challenges in the process of making the car. After assembly, the car is tested against a series of terrain hurdles to gain insight about the actual responses of the manufactured car in comparison to the theoretical values obtained in earlier phases. This process entails the construction of a harsh terrain and preparation of the driver for racing.<br /><br />Marketing and media<br /><br />Working in tandem with the media subsystem, the marketing subsystem puts the elite college team in the spotlight. By strategically placing the team on the map through innovative marketing strategies, the subsystem has managed to get spotted on the radar of various sponsors. It publicizes the various products and services offered by the sponsors through car-stickers, banners, social media shoutouts, branding, word of mouth, goodies etc. Besides bringing in sponsors, the marketing team is also involved in various activities such as: <br />Crowdfunding through the interactive e-portal, Wishberry<br />Stalls at Engineer(Tech fest of NITK) and Incident(Cultural fest of NITK)",
             "section": 1
         }
     },
@@ -69,10 +69,10 @@
         "model": "activity.crew",
         "pk": 7,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "title": "Amateur Astronomy Club (AAC)",
+            "subtitle": "CONVENER: Shyam Santhosh",
+            "image": "7.JPG",
+            "description": "The Amateur Astronomy Club (AAC), formerly the Star Gazing Club (SGC) is a group of space enthusiasts dedicated to astronomy, astrophysics and space technology. It aims at encouraging interest in the field and sharing fun trivia with the NITK community and beyond. It undertakes short and long term projects, organizes guest lectures and talks, conducts events like stargazing sessions, astro quiz and much more. The club has its own representation at Engineer, the technical festival of NITK, through the Astro Committee, which exhibits its projects and conducts other events related to astronomy in the form of quizzes, a rocket design competition, spacecraft simulator and more. <br /><br />Currently in the possession of two telescopes( an 8\" Newtonian Reflector and a 7\" Maksutov-Cassegrain), the club conducts frequent 'Starry Nights', a guided stargazing session where it shows various celestial bodies such as the moon, some of the planets and their satellites and a few nebulae. The audience are also taken on a night sky tour where prominent constellations and stars are shown. <br /><br />The club frequently holds Knowledge Sharing Sessions where members of the club speak on interesting topics related to astronomy and astrophysics. Professionals from outside the college are also invited to give a talk. From the previous year, the club has held informative sessions for middle school students at the NITK English Medium School. The idea of holding such sessions is to pique the scientific curiosity of the students and give them a better understanding of the world around us.<br /><br />Recruitments are held in the month of August. The club recruits B.Tech students early in their second year. The pre-recruitment talk is held where a brief description of the club activities is provided. This is followed by a written test to assess the astronomy and astrophysics knowledge of the candidate. Finally two rounds of interviews are held for the candidates shortlisted from the written test.<br /><br />Ongoing projects : <br />1. Rover: The club is working on a rover, based on the ones that are sent to Mars. This will be exhibited during the fest Engineer. It is planned to be autonomous and designed to sense the temperature, humidity and the atmospheric composition of its surroundings.<br />Motorization of the telescope: It often becomes convenient to keep track of night sky objects to aid taking observations and deep space  astrophotography using a motorised telescope",
             "section": 1
         }
     },
@@ -80,10 +80,10 @@
         "model": "activity.crew",
         "pk": 8,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "title": "American Society of Civil Engineers (ASCE)",
+            "subtitle": "CONVENER: Meera",
+            "image": "8.JPG",
+            "description": "Major events: <br />1. Seminars and Guest Lectures by professors of IITs and NITs <br />2. Workshops, Site Visits<br /><br />ASCE is a student group with an international recognition, which conducts activities like Seminars, Workshops, Site Visits and Student Competitions related to various aspects of Civil Engineering. Recruitment of students start with the pre recruitment talk, followed by two stages. First is an interview where students are asked both technical and non technical questions related to civil engineering. Shortlisted students are called for a group discussion. Recruitments happen either in the first or second week of August.",
             "section": 1
         }
     },
@@ -91,32 +91,21 @@
         "model": "activity.crew",
         "pk": 9,
         "fields": {
-            "title": "AF",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1zSFxcb3BpbOaYevPywgaUGzhd5pSl5q4",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 2
-        }
-    },
-    {
-        "model": "activity.crew",
-        "pk": 10,
-        "fields": {
-            "title": "AAC",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://drive.google.com/open?id=1LIlSWLy3NQBq_D2tfrjGNE9PtTWa7PV9",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 2
+            "title": "FLYING AND ROBOTICS CLUB(FARC)",
+            "subtitle": "CONVENER: NISHANT KUMAR",
+            "image": "9.JPG",
+            "description": "Major event : <br />1. Wright flight<br />2. Seminars by Professors and Alumni<br /><br />FARC is involved in building hobby grade remote controlled planes and take part in various national level competitions. First a written test is conducted and then the shortlisted candidates are interviewed and then recruited based on their performance in the interview. FARC has been supporting all the teams participating in e-Yantra, a National Level Robotics Competition held by IIT Bombay. Initially, there were around 50 teams who had been qualified to take part in the competition. Now there are 12 teams which are shortlisted to participate in the next round. Along with this, many members of FARC are working in CSD ROBOCON Team where we shall be representing NITK in the International Level Robotics Competition held by Asia-Pacific Broadcasting Union- ROBOCON.<br /><br />Ongoing Projects:<br />1. Robotic Arm - It's a 5 degree of freedom pick and place robotic arm.<br />2. Image Reconstruction-Image reconstruction and image inpainting is the task of filling in missing or corrupt parts of an image.",
+            "section": 1
         }
     },
     {
         "model": "activity.crew",
         "pk": 11,
         "fields": {
-            "title": "LSD",
-            "subtitle": "piscing elit",
+            "title": "Literary, Stage and Debating Society (LSD)",
+            "subtitle": "CONVENER: Amal Mohan",
             "image": "https://drive.google.com/open?id=1T5o2PF_Tf7xfYMj0xxf8XWH7-5McsWpM",
-            "description": "is aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
+            "description": "Major events: In a Nutshell (play), Hemanth Gangadhar Memorial Quiz, Cadenza Solo Quiz, Incident Quizzes, Change My Mind (Debate Session)<br /><br />The Literary, Stage and Debating Society is NITK’s one stop for the creatively inclined. <br />We've got it all with writing, debating, theatre,quizzing and even Filmmaking. We organize frequent plays, debates and quizzes, and provides a creative outlet to those with a literary flair. Workshops are also held by the literary division related to different techniques of writing. A number of events are also organised during Engineer and Incident. Anyone interested in participating in and helping to organize any event is free to join the club.",
             "section": 2
         }
     },
@@ -124,11 +113,11 @@
         "model": "activity.crew",
         "pk": 12,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 2
+            "title": "SOCIETY OF AUTOMOTIVE ENGINEERS (SAE) NITK",
+            "subtitle": "CONVENER: Rahul Madhogarhia",
+            "image": "12.JPG",
+            "description": "Major events: <br />1. Otto Quiz : Quiz based on Automobiles; followed by technical assessment.<br />2. Workshops: Sessions are conducted by the club members for the freshers to get practical experience.<br />3. Knowledge exchange program (KEP) : Sessions are taken by seniors for the juniors to gain technical knowledge in different softwares and fields.<br />4. Talk-Series : Club holds a brief lecture series and interactive sessions based on current development in automotive industry delivered by professionals.<br />5. Veloce: A fun event for freshers in which they go through a treasure hunt solving automobile puzzles and eventually get the reward.<br /><br />Upcoming Events: <br />1. Workshop on automobile parts: A live demonstration on automobile parts, and their working in collaboration with NITK Racing.<br />2. Robotics event  : A technical event that will put to test the skills of machine heads.<br /><br />SAE NITK is a technical club for the automotive and robotics enthusiasts, dealing in projects related to automotive and robotics field. SAE not only enhances someone's technical knowledge but also improve their managerial skills, since we organise many technical events as well as events that are for the welfare of the society. Students from all disciplines and backgrounds who have an interest in automobiles and robotics come here. Members of SAE get subscription of SAE Magazines and their exclusive articles which can greatly expand a person's view towards Automobiles and Robotics. The club has a three step recruitment process. First round is a written test, followed by a techical interview and finally a HR interview. Club members are allowed to propose their project ideas and they can work on them with a bunch of interested members.<br /><br />A few projects: <br />1. Stair climbing robot<br />2. Object recognition and Tracking Robot<br />3. Design and analysis of IC engine<br />4. Electromagnetic Braking System<br />5. RC Car",
+            "section": 1
         }
     },
     {
@@ -157,33 +146,33 @@
         "model": "activity.crew",
         "pk": 15,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 3
+            "title": "FORMULA SAE (FSAE) - NITKRacing",
+            "subtitle": "CAPTAIN: Amruth Nanjangud",
+            "image": "15.JPG",
+            "description": "Major event: The team is involved in designing, building, testing and improvising a FS Car throughout the year. We will be attending Formula Bharat 2020, which will be held in January of next year.<br /><br />Formula Student team of NITK designs and builds a Formula style race car. The team has participated in national as well as international Formula Student Competitions. Recruitments are usually in the even semester, in the month of February- March. It involves a preliminary written test which tests the candidate on basic engineering aptitude. Then there is a take home paper for selected students. It generally involves a lot of reading and answering the questions asked in a detailed manner. The final stages are the interview rounds. Based on the number of candidates, there may be multiple interview rounds.<br /><br />Ongoing projects: The team is building its new FS Car, NR20. Once design and manufacturing is completed, testing and tuning of the car will be carried out. This new car is completely different from the previous car, hence a complete redesign is needed. The design and manufacturing of an FS car can involve many projects such as Suspension Design, Chassis Design, Driveline Design, Data Acquisition System to name a few.",
+            "section": 1
         }
     },
     {
         "model": "activity.crew",
-        "pk": 6,
+        "pk": 16,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 3
+            "title": "Web Enthusiasts Club",
+            "subtitle": " CONVENOR: Anumeha Agrawal",
+            "image": "16.JPG",
+            "description": "MAJOR EVENTS<br />1. Hacktoberfest - Hacktoberfest is a global celebration of open source to encourage people to contribute to the open source community. <br />2. Software Freedom Week - A week long series of talks focused on open source software. The aim was to introduce the audience to open source opportunities.<br />3. TuxCoder -  A two-round ICPC-style contest simulating the online and onsite regional rounds at CCC<br />4. TuxRide - A weekend-long workshop series to introduce recent developments in various fields of Computer Science<br />5. Athena - A 24 hour Women's hackathon where women teams come up to the forefront and participate in coding events.<br />6. Linux Installation Drive - A session on introducing students to the Linux OS and helping them install Ubuntu on their systems.<br />7. Competitive Programming League - A set  of contests and sessions in which various algorithms and data structures are covered. <br />8. Clique - An algorithmic programming contest.<br /><br />Webclub is a technical club with members enthusiastic about anything related to Computer Science. The club also promotes Open Source culture in college. There are four main Special  Interest Groups (SIGs)<br />1. Intelligence SIG<br />2. Development SIG<br />3. Algorithms SIG<br />4. Systems SIG<br /><br />Ongoing Projects<br />1. NITK Faculty Recruitment Portal - The NITK Faculty Recruitment Portal has been designed to have an line procedure for faculties to apply to NITK Surathkal. <br />2. Engineer Website<br />3. Incident Website<br />4. PWL - Papers We Love, is an initiative by Web Club where Web Club members implement recent research papers trending in the field of Computer Science.",
+            "section": 1
         }
     },
     {
         "model": "activity.crew",
         "pk": 17,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
+            "title": "NITK Toastmasters’",
+            "subtitle": "CONVENER: Tirth Savla",
             "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": 3
+            "description": "NITK Toastmasters’ is affiliated to Toastmasters' International and aims to help students take up the art of speaking and offers communication and leadership projects for the same. It doesn't have any additional recruitment process. NITK Toastmasters got chartered in Jan - Apr 2017 with 20 members.<br /><br />Events:<br />1. Communication for Career Series- Sessions and Workshops<br />2. Weekly meetings for members to present prepared and extempore speeches on the basis of set guidelines<br />3. Hosts of the Toastmasters Area Contest for Area F2, under which NITK Toastmasters falls<br />4. Representation of both leaders and members in various Toastmaster platforms",
+            "section": 2
         }
     },
     {
@@ -212,66 +201,374 @@
         "model": "activity.crew",
         "pk": 20,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
+            "title": "Rotaract Club NITK Chapter",
+            "subtitle": "CONVENER: Pawan Sanjiv",
             "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": null
+            "description": "Major events: Rotaract Annual Charity Play, NITK Beach Run, Panache (Inter Branch Dance Competition), Orphanage Visit, Head Start, Verdict, Blockbuster, Mental Health Awareness Week.<br /><br />Projects: Technical Project Collaborations, Social Awareness Project. <br /><br />Rotaract Club NITK Chapter (Under Rotary Dist.: 3181) is a socio-cultural club that is affiliated with the Surathkal division of Rotary International. The student members organize several events that not only raise awareness about specific causes but also proactively help redress problems in the local society through initiatives such as orphanage trips, marathons and beach cleanup drives. The biggest production every year is the Annual Charity Play, all proceeds from which go towards supporting a charitable cause.<br /><br />Recruitment process for the club is held during the first couple of weeks of August and would take either 3 or 4 rounds. The club prefers applicants who have an inherent interest in volunteering and social work. They would also be tested on a myriad of skills such as teamwork, on how they would tackle current social issues and on abilities required to hold a Rotaract Club event.",
+            "section": 2
         }
     },
     {
         "model": "activity.crew",
         "pk": 21,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
-            "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": null
+            "title": "Artists' Forum (AF)",
+            "subtitle": "CONVENER: Sarang Kalantre ",
+            "image": "https://drive.google.com/open?id=1zSFxcb3BpbOaYevPywgaUGzhd5pSl5q4",
+            "description": "Major events: UDAAN (Annual Beach Kite Festival), Art Beat (short series of art competitions), Campus decoration during Incident and Engineer, Regular Workshops, Fine Art Competitions, Kalakriti (art exhibition during Incident).<br /><br />'Expressing emotions and envisaging ideals through Art' : that is their mission. At Artists' Forum, members believe in bigger ideas and better outcomes. They are constantly working towards getting art recognized as a precursor to the free flow of imagination and creativity. The recruitment is done in late August. Selection is based on Resume, Written test, various skill based tests and Personal interview.",
+            "section": 2
         }
     },
     {
         "model": "activity.crew",
         "pk": 22,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
+            "title": "E-cell",
+            "subtitle": "CONVENER: G S Nikhil",
             "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": null
+            "description": "Major events: E-summit, Enterprise.<br /><br />The entrepreneurship club of NITK focuses on business, startups, marketing, finance etc. The recruitment process consists of several rounds of interaction and tasks, which occurs once a week for the first three weeks, followed by interviews and intake. <br /><br />Ongoing Projects:<br />1. Organising E-summit on a larger scale <br />2. Start up funding happening STEP",
+            "section": 2
         }
     },
     {
         "model": "activity.crew",
         "pk": 23,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
+            "title": "Kannada vedike - NITK",
+            "subtitle": "CONVENER: Pruthvi ",
             "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": null
+            "description": "Major events:Treasure hunt, Parva, BD_Karnataka, First-aid awareness, E-events, kannada events during Incident and Engineer etc.<br /><br />The main motive of our club is to promote Kannada and also encourage students to learn kannada as it is the regional language of this state and it will be helpful for the students to communicate with the local people while doing any kind of business or while involving in kind of activity with the local bodies. We do our best to help students to learn kannada. It is an open club and all those who are interested can join and help in organizing events.",
+            "section": 2
         }
     },
     {
         "model": "activity.crew",
         "pk": 24,
         "fields": {
-            "title": "Lorem ipsum dolor",
-            "subtitle": "consectetur adipiscing elit",
+            "title": "Music Club",
+            "subtitle": "CONVENER: Nikhil Govindarajan",
             "image": "https://via.placeholder.com/800x400",
-            "description": "In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et tortor at. Lectus arcu bibendum at varius vel pharetra vel turpis. Maecenas sed enim ut sem. Enim ut sem viverra aliquet eget. Lacus viverra vitae congue eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Enim nulla aliquet porttitor lacus",
-            "section": null
+            "description": "Major events: <br />1. Organise and perform in 4 Musical Nights in a year<br />2. Participate in multiple local fests<br />3. Participate in Saarang and Raagam (where the bands won prizes last year)<br /><br />The Music Club provides a creative outlet for those who want to perform on stage and better themselves through jams and practices. Musical Nights and fests are the primary activities, with audio production becoming increasingly more popular. The recruitment process usually consists of two rounds. The first round tests the basic musical abilities of the participant and the second tests their strengths and weaknesses. Vocalists may have a third round too, depending on the number of applicants.<br /><br />Ongoing Projects: Audio production, Song writing.",
+            "section": 2
         }
     },
     {
         "model": "activity.crew",
         "pk": 25,
         "fields": {
-            "title": "Gravida in fermentum",
-            "subtitle": "aliquet lectus proin",
+            "title": "Media Arts and Creative Design (MACD)",
+            "subtitle": "CONVENER: Yukti Gupte",
             "image": "https://via.placeholder.com/800x400",
-            "description": "Elementum pulvinar etiam non quam lacus suspendisse faucibus. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Euismod quis viverra nibh cras pulvinar. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Nunc consequat interdum varius sit amet mattis. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac.",
-            "section": null
+            "description": "Major events: Photography workshop, Vegas workshop, online design video events.<br /><br />Behind the exhilarating teaser trailers and captivating posters for various occasions and events in the campus is MACD, a group of media and creativity enthusiasts. Consisting of three SIGs - Media, Design and Content development, they fuse together in spectacular fashion, to bring out the brilliant best in all of the members. If you believe your creativity is not getting fed enough, or if you wanna be part of an epic media showcase, this is the right place for you. The recruitment is done in the beginning of the even semester and has two rounds. The first round is done online where candidates are be asked to do tasks within a limited time. The best candidates are interviewed and then selected.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 26,
+        "fields": {
+            "title": "Photography Club",
+            "subtitle": "CONVENER: Sai Jagadeesh T",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: Photography and Editing workshops, Glance (during Engi), Photo contests, Photo Walks, Expose (during Incident).<br /><br />This is where passion for photography meets the mind behind amazing clicks. The club stands for connecting the past memories and preserving them. There are 3 SIGs (Photography, Editing and Operations) that work hand in hand in making students reminisce and cherish all the great times in the college. Coming to the Recruitment, a Google form is circulated, which contains personal and technical questions to be filled. Selected students are interviewed further. Post-Interviews, the recruits are free to choose the SIG’s based on their interest.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 27,
+        "fields": {
+            "title": "Society for the Promotion of Indian Classical Music And Culture Amongst Youth (SPICMACAY)",
+            "subtitle": "CONVENER: Chandrika.T.G",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: <br />1. Aradhana - A fest for school children conducted by second years which includes various competitions in art and literary events followed by music or dance performance by students of NITK and outside.<br />2. Concerts by artists of national and international acclaim in the college campus and the institutes around.<br />3. Workshop in government school to teach and develop interest about Indian classical art among the students. <br /><br />SPICMACAY is one of the pioneer clubs in the college started around 30 years ago, providing an insight into the Indian culture and art forms. They organise concerts of various art forms like classical music, dance from distinguished artists. They are a voluntary movement. Anyone can join in the wonderful journey of exploring the Indian art forms. Weekly meetings are held  every Thursdays in the Pavilion at 6pm where lecture demonstration by the members of the club on their art form of expertise is explained and performed.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 28,
+        "fields": {
+            "title": "NITK Dance Crew",
+            "subtitle": "NITK Dance Crew",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: <br />1. Performances during the inauguration functions of Engineer and Incident and special performances during events like Spandan and Crescendo<br />2. Organize Dance events during Incident like Step- up , Tandav and Promenade<br />3. Participate in inter college Dance competitions and represent NITK in other college fests<br />4. Perform flash mobs as a part of publicity for Engineer and Incident<br /><br />Dance is popular all over the world. People enjoy expressing themselves through movement. Nitk Dance Crew is one such platform where people can express themselves and exhibit their talent and skills in Dance. All styles of dances are encouraged and given equal importance in this club. Ultimately the goal of this club is to expose oneself to the world of dance and mitigate stage fear and enjoy each and every face of it.  <br /><br />Recruitments are normally held in the odd semester in the month of August generally. Audition process generally involves two or three rounds (which are up to the recruiters). In the first round a dance sequence for about 2-3 minutes of any dance style can be performed and further rounds will be based on the decisions made by the recruiters.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 29,
+        "fields": {
+            "title": "Film's Club NITK",
+            "subtitle": "CONVENER:Bharath sainath L",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: Films festival and regular movie screenings.<br /><br />Film’s club screens movies at regular intervals at the Student Activity centre (SAC) or Silver Jubilee Auditorium (SJA). Apart from English and Hindi, Regional films are screened as well. Film’s club also organises the \"Film Fest\", which takes place for 2-3 days. NITK Film Festival is a celebration of cinema where contrary to the norm, we screen movies that have garnered an excellent response from critics and movie enthusiasts alike. This is to ensure that young minds get a taste of true cinema, and to appreciate the amount of effort put into creating truly captivating films that inspire our current youth. It includes screening of critically acclaimed movies across various genres and interaction with artists. <br /><br />Recruitment is open only for present second years who are genuinely interested in organising the events. It is based on two main criteria- their involvement in Film’s club activities and their performance in the interview. Students volunteering for work in the fest and participation in various events are taken into consideration while shortlisting the interested students. These students are interviewed by the core team and final set of students are selected. During the interview, things that are looked for are appreciation of good quality films, knowledge of prominent filmmakers and artists of film industries, skills such as photoshopping and content writing and interest in Cinema.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 30,
+        "fields": {
+            "title": "Dance Dramatics and Fashion Club (DDFC)",
+            "subtitle": "PRESIDENT: FARRIS SUHALE",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: <br />1. Spandan - The club’s first event in the odd semester in which participants from all years showcase their talents. This event also has a fashion pageant, especially for the freshers- Mr. And Miss Glamour Anza.<br />2. Bharat Darshan - The biggest cultural event of NITK, held in the even semester. This bright and colorful extravaganza showcases brilliant performances by groups representing the various state of India, and is held on the occasion of Republic Day.<br />3. Dramas and Dandiya Nights.<br /><br />DDFC is one of the biggest student clubs in NITK, which organizes and hosts cultural events . It has multiple events spread out over the whole year. Club recruitments are held in the odd semester and the process consists of multiple rounds, including interviews and resume shortlisting.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 31,
+        "fields": {
+            "title": "Voice Club",
+            "subtitle": "CONVENER: SUJEET KUMAR",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: Power of Habits, Discover Yourself, Gitamrutam, Ramanavami and many more.<br />The club focuses on imparting the youth with Character ,Culture and Competence through seminars like Power of Habits , Gitamrutam and festivals like Ramanavami and Janmashtami.<br />Recruitment is done through Power of Habits and Discover Yourself sessions.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 32,
+        "fields": {
+            "title": "Hindi Evam Sanskrit Club (HESC)",
+            "subtitle": "CONVENER: SUJEET KUMAR",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Major events: <br />1. Kalakriti - Provides a platform for open mic performances like solo song, poetry, comedy, short story e.t.c  for the students of NITK.<br />2. International mother language day - On this day a quiz competition based on general awareness about hindi language is organised followed by performances in different languages and prize distribution. <br />3. Hindi Pakhwada - Events like handwriting and thematic rangoli competition, and singing competition at All India Radio Akashvani Mangalore are organised.<br />4. Rangmanch and Hindi Diwas celebration<br /><br />HESC, one of the cultural clubs of NITK, aims to promote awareness regarding hindi and sanskrit language. The club conducts events accentuating hindi and sanskrit throughout the academic year. Kalakriti and Hindi Pakhwada are its flagship events.<br /><br />Recruitment is two round process including written test following a HR interview.",
+            "section": 2
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 33,
+        "fields": {
+            "title": "ATHLETICS",
+            "subtitle": "Captain: Dharun Karthick",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection process will be in the first week of September; prior notices will be put up.<br /><br />Competitions: All athletics and Gym events.<br />Major achievements: <br />1. Two gold and one silver at All India Inter NIT Sports Meet 2017-18<br />2. One Silver and three Bronze at All India Inter NIT Sports Meet 2018-19",
+            "section": 4    
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 34,
+        "fields": {
+            "title": "BADMINTON (BOYS)",
+            "subtitle": "Captain: Shodhan Nakshatri",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selections will be carried out through knockout matches and will be held in August.<br /><br />Competitions: INTER NIT, Revels cup .<br /><br />Major achievements: Semifinalists in 2018- 2019 Inter-NIT.",
+            "section": 4
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 35,
+        "fields": {
+            "title": "BADMINTON (GIRLS)",
+            "subtitle": "Captain: Anamika Karthy",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selections will be carried out through knockout matches and will be held in August.<br /><br />Competitions: Inter NIT, Revels<br /><br />Major achievements: Bronze in 2018-2019 Inter- NIT",
+            "section": 4
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 36,
+        "fields": {
+            "title": "BASKETBALL (BOYS)",
+            "subtitle": "Captain: Vysakh Alungal",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection is through performance and improvement based on regular practice at the court. Basic skills and knowledge of the sport is necessary.<br /><br />Competitions: Inter NIT, James Naismith Cup, Revels Basketball tournament,Bits Goa. Tournament,  VJCET tournament, Fury during Ragam at NIT Calicut, Father Mullers Tournament, Yenapoya Tournament and the most awaited Slam Dunk during Incident.<br /><br />Major achievements: Winners of Fury 2019,Yenapoya 2016 Naismith 2016,Runners up at the Inter NIT tournament 2016,2019, Bits Goa Tournament 2019, NITK cup 2018.",
+            "section": 4
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 37,
+        "fields": {
+            "title": "BASKETBALL (GIRLS)",
+            "subtitle": "Captain: Mehak Arora",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection is through performance and improvement based on regular practice at the court. Basic skills, physical fitness and knowledge of the sport is necessary.<br /><br />Competitions: Inter NIT, James Naismith Cup, Father Mullers tournament, Fury during Raagam at NIT Calicut, Yenapoya tournament, Revels Basketball tournament, Dusshera cu.p and the most awaited Slam Dunk during Incident.<br /><br />Major achievements : Winners of the Inter NIT Basketball tournament 2016, runners-up of Father Muller tournament 2016 and 2017, Runners up Fury'19, Runners Up Yenapoya Tournament 2018.",
+            "section": 4 
+        }      
+    },
+    {
+        "model": "activity.crew",
+        "pk": 38,
+        "fields": {
+            "title": "CHESS",
+            "subtitle": "Captains :<br />Samvid Kane<br />Madhumitha Nara ( Girls ) ",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure details: A chess tournament will be conducted for both boys and girls in the month of August or September and the best performers will be added to the team.<br /><br />Competitions: Inter NIT, FMMC Adrenaline, MIT Revels, All India Inter University Chess Championship<br /><br />Major achievements:<br />- 2 time Inter NIT Champions- 2018 and 2019<br />- Winners of FMMC Adrenaline 2018 and 2019<br />-Qualified for All India Inter University Nationals Chess Championship 2018",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 39,
+        "fields": {
+            "title": "CRICKET",
+            "subtitle": "Captain: Kirthan P Reddy",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure details: Open trials in the month of October.<br /><br />Competitions: Inter NIT, MIT Revels, DKCA inter college tournaments, KSCA inter club tournaments.<br /><br />Major achievements: <br />DKCA runners up in 2016 and winner in 2015.<br />Runners up in All India Inter NIT Sports Meet 2018-19",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 40,
+        "fields": {
+            "title": "FOOTBALL",
+            "subtitle": "Captain: Adil Salim",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection will be on the basis of performance in trials to be held in the first week of August. <br /><br />Competitions: Independence Day Cup, Inter NIT, Mangalore Football League, Revels, Yenepoya, Aavhan, Spree.<br /><br />Major achievements: Inter NIT champions 2014",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 41,
+        "fields": {
+            "title": "HANDBALL",
+            "subtitle": "Captain : P V V Raghunandan",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: selection is purely based on skills and techniques of the player which can be executed in the trails and will choose the best ones among them , trails will be conducted in the month of August/September<br /><br />Competitions  :Inter NIT Tournament , Revels (MIT)<br /><br />Major achievements  : <br />Champions of Inter NIT Tournament 2017<br />Runners of Inter NIT Tournament 2018<br />Champions of Inter NIT Tournament 2019",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 42,
+        "fields": {
+            "title": "HOCKEY",
+            "subtitle": "Captain : Bharat Sharma",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Anyone who knows hockey and/or wants to learn hockey and has a passion towards the game are welcome. <br /><br />Competition: Revels(MIT), Dasara Cup, Inter NIT tournament , DK League<br /><br />Major achievements: Inter NIT Champion for 3 consecutive years till 2017. Silver medalist in 2019.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 43,
+        "fields": {
+            "title": "KABADDI(boys and girls)",
+            "subtitle": "Captain : VISLAVATH SURESH, K. ANITHA. ",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: <br /><br />Selections are held at the beginning of odd semester based on performance and regular practice.<br /><br />Two Reserve position for freshers and more on basis of performance. <br /><br />Competitions: <br />Inter NIT tournament and tournaments held in and around Mangalore, .<br /><br />Major achievements: <br />1st place in the year 2013-2014,<br />fathermullerchamps2018.<br /><br />girls :fourth place in internit games 2019.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 44,
+        "fields": {
+            "title": "KHO KHO",
+            "subtitle": "Captain :RAMAVATH TEEKYA",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure:<br />selection will be based on regular practice and discipline towards game. <br /><br />Competitions  :internit games, southzone university games.<br /><br />Major achievements  : semis (internit games 2019).",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 45,
+        "fields": {
+            "title": "LAWN TENNIS",
+            "subtitle": "Captain: Butchi Siddartha Pattisapu",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection based on performance in mini-tournament held usually in November.<br /><br />Competitions: Inter NIT, Revels Manipal, Spree Bits Goa, District tournament at Bramhavar, VIT, BMS, SSN (probably).<br /><br />Major achievements: Inter NIT winner and runners-up for several years, Winner Of District Tournament at Bramhavar, Semifinalists at Spree Bits Goa and Revels Manipal.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 46,
+        "fields": {
+            "title": "SWIMMING (BOYS & GIRLS)",
+            "subtitle": "Captain: Amit Das",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection Procedure:Trials will be held in August or September and swimmers will be selected based on their stroke & timing.<br /><br />Competitions: Inter NIT, MIT Revels, Dasara Meet.<br /><br />Major achievements: <br />Champions in Inter NIT Aquatics for the years  2013,2014,2015, 2016, 2017,2018,2019.<br />Second Runner up in MIT Revels for the years 2017,2018,2019.",
+            "section": 4       
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 47,
+        "fields": {
+            "title": "TABLE TENNIS",
+            "subtitle": "Captain: Pranav Ravi, Sanjana",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection Procedure:Trials will be held in August or September and swimmers will be selected based on their stroke & timing.<br /><br />Competitions: Inter NIT, MIT Revels, Dasara Meet.<br /><br />Major achievements: <br />Champions in Inter NIT Aquatics for the years  2013,2014,2015, 2016, 2017,2018,2019.<br />Second Runner up in MIT Revels for the years 2017,2018,2019.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 48,
+        "fields": {
+            "title": "THROWBALL",
+            "subtitle": "Captain: Sanjana Gangadhara",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection based on trial match, held in August.<br /><br />Competitions:Adrenaline, Revels and Spin Shock (during Incident 2018-19) .<br /><br />Major achievements:Spin Shock 18-19 winners.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 49,
+        "fields": {
+            "title": "VOLLEYBALL (BOYS)",
+            "subtitle": "Captain: Swaraj U Rao",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Selection is through performance and improvement based on regular practice. Basic skills and knowledge of the sport is necessary.7<br /><br />Competitions: Inter NIT, Revels tournament, Father mullers and Yenapoya tournaments.<br /><br />Major achievements: Runners up in Father mullers tournament 2017, 2nd runners up in Inter NIT 2019",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 50,
+        "fields": {
+            "title": "VOLLEYBALL (GIRLS)",
+            "subtitle": "Captain: Sitara Kumbale",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Selection procedure: Date for trial will be given around the 2nd or 3rd week after the college starts. Interested players should assemble on the court on that day. Selection will be based on regular practice and performance.<br /><br />Competitions: Inter Nit and a few other college tournaments in and around Mangalore and Manipal.<br /><br />Major achievements: Won the first place in Inter NIT 2017. Won the second place at Revels Manipal 2019.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 51,
+        "fields": {
+            "title": "CAMP - Career development and Alumni Mentorship Program",
+            "subtitle": "Alumni Supported Event",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "NITK Students' Council along with NITK Alumni Association hosted CAMP '19 - Career development and Alumni Mentorship Program on 4th August 2019. CAMP '19 was the first talk series of this academic year, with distinguished alumni as the speakers.<br />The program aimed at providing an insight into careers in corporate sector, civil services, defence, entrepreneurship and higher studies abroad.<br />We would like to thank all the alumni for organising this event. We are keenly looking forward to host many more.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 52,
+        "fields": {
+            "title": "FSC - Finishing School Certification",
+            "subtitle": "Alumni Supported Event",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Finishing School Certification (FSC), is an initiative by NITK Alumni Association in association with Education Department, Government of Gujarat, NITK Students' Council and Career Development Centre. The event being targeted at third year UG and first year PG students, provided 36 hrs training in modules covering Effective Communication, Life Skills and Professional Skills. The training was conducted over 3 weekends.",
+            "section": 4        
+        }
+    },
+    {
+        "model": "activity.crew",
+        "pk": 53,
+        "fields": {
+            "title": "Karavali Marathon",
+            "subtitle": "Alumni Supported Event",
+            "image": "https://via.placeholder.com/800x400",
+            "description": "Karavali Marathon is an Annual Marathon organised by the NITK Alumni Association, backed by the Students' Council, TaskForce NITK and Rotaract Club.",
+            "section": 4        
         }
     }
 ]

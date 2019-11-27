@@ -1,9 +1,12 @@
+{% load static %}
 {% for obj in activities_list %}
 
 <div class="col s12 m4">
     <div class="card">
         <div class="card-image">
-            <!-- <img src="{{ obj.image }}">  -->
+            {% with 'images/clubs/'|add:obj.image|add:'' as image_static %}
+            <img src="{% static image_static %}" />
+            {% endwith %}
             <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#{{obj.id}}">
                 <i class="material-icons black">add</i>
             </a>
@@ -15,13 +18,14 @@
     </div>
 </div>
 
-
 <div id="{{obj.id}}" class="modal">
     <div class="modal-content">
         <div class="col s12 center-align">
-            <img src="{{ obj.image }}" class="responsive-img">
-            <h4>{{obj.title}}</h4>
-            <p>{{obj.description}}</p>
+            {% with 'images/clubs/'|add:obj.image|add:'' as image_static %}
+            <img src="{% static image_static %}" class="responsive-img">
+            {% endwith %}
+            <h4>{{ obj.title }}</h4>
+            <p class="left-align">{{ obj.description|safe }}</p>
         </div>
     </div>
     <div class="modal-footer">

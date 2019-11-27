@@ -1,5 +1,6 @@
 {% extends 'mainapp/base.html' %}
 {% block extra_css %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     p {
         margin: 0
@@ -34,7 +35,6 @@
         border: 0.5px solid black;
     }
 </style>
-
 {% endblock %}
 {% block content %}
 <div class="container">
@@ -89,9 +89,11 @@
             <li>
                 {% include "team/group.html" with group_title="Alumni Advisory" member_list=alumni_adv only %}
             </li>
-
             <li>
                 {% include "team/group.html" with group_title="Hostel Advisory" member_list=hostel_adv only %}
+            </li>
+            <li>
+                {% include "team/group.html" with group_title="Public Relations Coordinators" member_list=prc only %}
             </li>
         </ul>
 </div>
@@ -107,9 +109,6 @@
 
             <li>
                 {% include "team/group.html" with group_title="Sports Advisory - Sports Captains" member_list=sports_cap only %}
-            </li>
-            <li>
-                {% include "team/group.html" with group_title="Alumni Advisory - Alumni Coordinators" member_list=alumni_coord only %}
             </li>
         </ul>
 </div>
@@ -133,11 +132,9 @@
             <li>
                 {% include "team/group.html" with group_title="Second Year - Class Representatives" member_list=cr2 only %}
             </li>
-            {% comment %}
             <li>
                 {% include "team/group.html" with group_title="First Year - Class Representatives" member_list=cr1 only %}
             </li>
-            {% endcomment %}
         </ul>
 </div>
 
@@ -150,12 +147,12 @@ philipraets comment
     <ul>
         <li>
             <a href="#main_council" class="btn-floating teal"><i class="material-icons">chevron_left</i></a>
-            <a href="#main_council" class="btn-floating mobile-fab-tip">Main Councils</a>
+            <a href="#main_council" class="btn-floating mobile-fab-tip">Student Council</a>
             <!--tooltip-->
         </li>
         <li>
             <a href="#exec" class="btn-floating blue"><i class="material-icons">chevron_left</i></a>
-            <a href="#exec" class="btn-floating mobile-fab-tip ">Advisories</a>
+            <a href="#exec" class="btn-floating mobile-fab-tip ">Executive Council</a>
             <!--tooltip-->
         </li>
         <li>
