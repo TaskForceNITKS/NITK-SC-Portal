@@ -1,5 +1,5 @@
 dataclasses==0.6
-Django==2.2.2
+Django==2.2.13
 django-db-file-storage==0.5.3
 django-dotenv==1.4.2
 django-storages==1.7.1
